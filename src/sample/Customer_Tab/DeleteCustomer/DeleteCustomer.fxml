@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="263.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox layoutX="-2.0" layoutY="183.0" prefHeight="55.0" prefWidth="404.0">
+            <children>
+                <JFXButton fx:id="c_delete" prefHeight="66.0" prefWidth="250.0" text="Delete" />
+                <JFXButton fx:id="ccancle" prefHeight="66.0" prefWidth="250.0" text="Cancle" />
+            </children>
+        </HBox>
+        <Pane layoutX="3.0" layoutY="5.0" prefHeight="178.0" prefWidth="394.0">
+            <children>
+                <Label layoutX="24.0" layoutY="25.0" text="Enter Customer ID :">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Label>
+                <Label layoutX="24.0" layoutY="69.0" text="Customer name :">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Label>
+                <Label fx:id="cname" layoutX="169.0" layoutY="68.0" prefHeight="19.0" prefWidth="192.0" style="-fx-border-color: black;">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Label>
+                <JFXTextField fx:id="enter_id" layoutX="169.0" layoutY="21.0" prefHeight="25.0" prefWidth="192.0">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </JFXTextField>
+            <Label layoutX="24.0" layoutY="114.0" text="Customer phone :">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="cphone" layoutX="169.0" layoutY="113.0" prefHeight="19.0" prefWidth="192.0" style="-fx-border-color: black;">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
