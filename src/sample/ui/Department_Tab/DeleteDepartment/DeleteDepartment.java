@@ -1,4 +1,4 @@
-package sample.Customer_Tab.DeleteCustomer;
+package sample.ui.Department_Tab.DeleteDepartment;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,12 +6,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class DeleteCustomer extends Application {
+public class DeleteDepartment extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("DeleteCustomer.fxml"));
-        primaryStage.setTitle("Delete cus");
+        Parent root = FXMLLoader.load(getClass().getResource("DeleteDepartment.fxml"));
+        primaryStage.setTitle("Delete Dept");
         primaryStage.setScene(new Scene(root, 600, 500));
         primaryStage.show();
     }

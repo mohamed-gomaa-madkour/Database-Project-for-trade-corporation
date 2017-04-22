@@ -1,4 +1,4 @@
-package sample.Department_Tab.DeleteDepartment;
+package sample.ui.Department_Tab.DeleteDepartment;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;

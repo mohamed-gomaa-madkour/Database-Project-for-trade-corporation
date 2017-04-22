@@ -1,4 +1,4 @@
-package sample.Customer_Tab.DeleteCustomer;
+package sample.ui.Customer_Tab.DeleteCustomer;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;

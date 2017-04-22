@@ -1,14 +1,14 @@
-package sample.Customer_Tab.ModifyCustomer;
+package sample.ui.Department_Tab.ModifyDepartment;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class ModifyCustomerController {
+public class ModifyDepartmentController {
 
     @FXML
-    private Label cname;
+    private Label dname;
 
     @FXML
     private JFXTextField enter_id;
@@ -20,15 +20,9 @@ public class ModifyCustomerController {
     private JFXTextField new_name;
 
     @FXML
-    private Label cphone;
-
-    @FXML
-    private JFXTextField new_phone;
-
-    @FXML
     private JFXButton modify;
 
     @FXML
     private JFXButton cancle;
-}
 
+}

@@ -1,4 +1,4 @@
-package sample.Department_Tab.ModifyDepartment;
+package sample.ui.Customer_Tab.ModifyCustomer;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,12 +6,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class ModifyDepartment extends Application{
+public class ModifyCustomer extends Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("ModifyDepartment.fxml"));
-        primaryStage.setTitle("Modify Dept");
+        Parent root = FXMLLoader.load(getClass().getResource("ModifyCustomer.fxml"));
+        primaryStage.setTitle("Modify Cus");
         primaryStage.setScene(new Scene(root, 600, 500));
         primaryStage.show();
     }

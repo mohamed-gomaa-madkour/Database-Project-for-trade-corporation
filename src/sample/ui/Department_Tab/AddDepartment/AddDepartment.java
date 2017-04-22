@@ -1,4 +1,4 @@
-package sample.Customer_Tab.ViewCustomers;
+package sample.ui.Department_Tab.AddDepartment;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,12 +6,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class ViewCustomers extends Application {
+public class AddDepartment extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("ViewCustomers.fxml"));
-        primaryStage.setTitle("View Cus");
+        Parent root = FXMLLoader.load(getClass().getResource("AddDepartment.fxml"));
+        primaryStage.setTitle("Add Dept");
         primaryStage.setScene(new Scene(root, 600, 500));
         primaryStage.show();
     }
@@ -21,3 +21,4 @@ public class ViewCustomers extends Application {
         launch(args);
     }
 }
+
