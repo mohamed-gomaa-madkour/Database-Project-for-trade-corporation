@@ -15,7 +15,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.main.MainController">
     <children>
         <MenuBar layoutX="1.0" layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
             <menus>
@@ -131,10 +131,10 @@
                                 </Pane>
                                 <VBox layoutY="5.0" prefHeight="329.0" prefWidth="154.0">
                                     <children>
-                                        <Button fx:id="add_d" contentDisplay="TOP" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Add Department" />
-                                        <Button fx:id="delete_d" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Delete Department" />
-                                        <Button fx:id="view_d" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="View Departments" />
-                                        <Button fx:id="modify_d" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Modify Department" />
+                                        <Button fx:id="add_d" contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAddDepartment" prefHeight="150.0" prefWidth="154.0" text="Add Department" />
+                                        <Button fx:id="delete_d" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadDeleteDepartment" prefHeight="150.0" prefWidth="154.0" text="Delete Department" />
+                                        <Button fx:id="view_d" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadViewDepartment" prefHeight="150.0" prefWidth="154.0" text="View Departments" />
+                                        <Button fx:id="modify_d" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadModifyDepartment" prefHeight="150.0" prefWidth="154.0" text="Modify Department" />
                                         <Button fx:id="settings_d" contentDisplay="TOP" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Settings">
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
@@ -170,10 +170,10 @@
                                 </Pane>
                                 <VBox layoutY="5.0" prefHeight="329.0" prefWidth="154.0">
                                     <children>
-                                        <Button fx:id="add_c" contentDisplay="TOP" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Add Costomer" />
-                                        <Button fx:id="delete_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Delete Costomer" />
-                                        <Button fx:id="view_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="View Costomers" />
-                                        <Button fx:id="modify_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Modify Costomer" />
+                                        <Button fx:id="add_c" contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAddCustomer" prefHeight="150.0" prefWidth="154.0" text="Add Costomer" />
+                                        <Button fx:id="delete_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadDeleteCustomer" prefHeight="150.0" prefWidth="154.0" text="Delete Costomer" />
+                                        <Button fx:id="view_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadViewCustomer" prefHeight="150.0" prefWidth="154.0" text="View Costomers" />
+                                        <Button fx:id="modify_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadModifyCustomer" prefHeight="150.0" prefWidth="154.0" text="Modify Costomer" />
                                         <Button fx:id="settings_c" contentDisplay="TOP" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Settings">
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
