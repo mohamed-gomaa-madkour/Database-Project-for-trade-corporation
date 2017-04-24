@@ -2,24 +2,27 @@
 
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="195.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="224.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <VBox layoutY="13.0" prefHeight="179.0" prefWidth="404.0">
+      <VBox layoutY="-1.0" prefHeight="224.0" prefWidth="404.0">
          <children>
-            <JFXTextField fx:id="d_id" prefHeight="35.0" prefWidth="404.0" promptText="Department ID" />
-            <JFXTextField fx:id="d_name" prefHeight="35.0" prefWidth="404.0" promptText="Dpartment name" />
+            <JFXTextField fx:id="d_id" prefHeight="75.0" prefWidth="404.0" promptText="Department ID">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </VBox.margin></JFXTextField>
+            <JFXTextField fx:id="d_name" prefHeight="67.0" prefWidth="404.0" promptText="Dpartment name" />
+            <HBox prefHeight="47.0" prefWidth="404.0">
+               <children>
+                  <JFXButton fx:id="d_save" prefHeight="66.0" prefWidth="250.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Save" />
+                  <JFXButton fx:id="d_cancle" prefHeight="66.0" prefWidth="250.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Cancle" />
+               </children>
+            </HBox>
          </children>
       </VBox>
-      <HBox layoutY="105.0" prefHeight="47.0" prefWidth="404.0">
-         <children>
-            <JFXButton fx:id="d_save" prefHeight="66.0" prefWidth="250.0" text="Save" />
-            <JFXButton fx:id="d_cancle" prefHeight="66.0" prefWidth="250.0" text="Cancle" />
-         </children>
-      </HBox>
    </children>
 </AnchorPane>
