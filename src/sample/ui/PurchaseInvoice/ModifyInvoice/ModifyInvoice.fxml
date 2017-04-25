@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="503.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.PurchaseInvoice.AddInvoice.AddInvoiceController">
+    <children>
+        <VBox layoutX="24.0" layoutY="14.0" prefHeight="344.0" prefWidth="556.0">
+            <children>
+                <JFXTextField prefHeight="0.0" prefWidth="556.0" promptText="Serial">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                </JFXTextField>
+                <JFXDatePicker prefHeight="19.0" prefWidth="556.0" promptText="Date">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                </JFXDatePicker>
+                <JFXTextArea promptText="Items">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                </JFXTextArea>
+                <JFXTextField promptText="Total Price">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                </JFXTextField>
+            </children>
+        </VBox>
+        <HBox layoutX="24.0" layoutY="391.0" prefHeight="77.0" prefWidth="556.0">
+            <children>
+                <JFXButton prefHeight="100.0" prefWidth="276.0" style="-fx-background-color: #2a5cd3;" text="Modify" textFill="WHITE" />
+                <JFXButton prefHeight="100.0" prefWidth="279.0" style="-fx-background-color: #2a5cd3;" text="Cancel" textFill="WHITE" />
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>
