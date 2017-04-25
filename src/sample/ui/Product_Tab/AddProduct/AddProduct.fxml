@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="305.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox layoutY="13.0" prefHeight="226.0" prefWidth="404.0">
+            <children>
+                <JFXTextField fx:id="serial" prefHeight="35.0" prefWidth="404.0" promptText="Product serial" />
+                <JFXTextField fx:id="type" prefHeight="35.0" prefWidth="404.0" promptText="Product type" />
+                <JFXTextField fx:id="model" layoutX="10.0" layoutY="45.0" prefHeight="35.0" prefWidth="404.0" promptText="Model" />
+            <JFXTextField fx:id="p_price" layoutX="10.0" layoutY="80.0" prefHeight="35.0" prefWidth="404.0" promptText="Purchase price" />
+            <JFXTextField fx:id="s_price" layoutX="10.0" layoutY="115.0" prefHeight="35.0" prefWidth="404.0" promptText="Sales price" />
+            </children>
+        </VBox>
+        <HBox layoutY="239.0" prefHeight="47.0" prefWidth="404.0">
+            <children>
+                <JFXButton fx:id="save" prefHeight="66.0" prefWidth="250.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Save" />
+                <JFXButton fx:id="cancle" prefHeight="66.0" prefWidth="250.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Cancle" />
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

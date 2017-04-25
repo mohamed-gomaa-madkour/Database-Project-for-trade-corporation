@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="492.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Pane layoutX="12.0" layoutY="4.0" prefHeight="428.0" prefWidth="469.0">
+            <children>
+                <Label layoutX="25.0" layoutY="14.0" text="Enter Product serial :" />
+                <Label layoutX="25.0" layoutY="54.0" text="Product Type :" />
+                <Label fx:id="type" layoutX="167.0" layoutY="53.0" prefHeight="17.0" prefWidth="225.0" style="-fx-border-color: black;" />
+                <JFXTextField fx:id="enter_serial" layoutX="167.0" layoutY="10.0" prefHeight="25.0" prefWidth="225.0" />
+                <Label layoutX="12.0" layoutY="187.0" style="-: bold;" text="Modify :-">
+                    <font>
+                        <Font name="Aharoni Bold" size="30.0" />
+                    </font>
+                </Label>
+                <Label layoutX="25.0" layoutY="245.0" text="Enter new Serial :" />
+                <Label layoutX="25.0" layoutY="274.0" text="Enter new Type :" />
+                <JFXTextField fx:id="new_serial" layoutX="146.0" layoutY="241.0" prefHeight="25.0" prefWidth="225.0" />
+                <JFXTextField fx:id="new_ppric" layoutX="146.0" layoutY="331.0" prefHeight="25.0" prefWidth="225.0" />
+                <Label layoutX="25.0" layoutY="84.0" text="Model :" />
+                <Label fx:id="model" layoutX="167.0" layoutY="83.0" prefHeight="17.0" prefWidth="225.0" style="-fx-border-color: black;" />
+                <Label layoutX="23.0" layoutY="307.0" text="Enter new Model :" />
+                <JFXTextField fx:id="new_sprice" layoutX="146.0" layoutY="364.0" prefHeight="25.0" prefWidth="225.0" />
+            <Label layoutX="24.0" layoutY="115.0" text="Purchase price :" />
+            <Label layoutX="25.0" layoutY="147.0" text="Sales price :" />
+            <Label fx:id="p_price" layoutX="167.0" layoutY="114.0" prefHeight="17.0" prefWidth="225.0" style="-fx-border-color: black;" />
+            <Label fx:id="s_price" layoutX="167.0" layoutY="146.0" prefHeight="17.0" prefWidth="225.0" style="-fx-border-color: black;" />
+            <Label layoutX="23.0" layoutY="335.0" text="Enter new Pur. Price :" />
+            <Label layoutX="23.0" layoutY="368.0" text="Enter new Sal. Price :" />
+            <JFXTextField fx:id="new_model" layoutX="146.0" layoutY="303.0" prefHeight="25.0" prefWidth="225.0" />
+            <JFXTextField fx:id="new_type" layoutX="146.0" layoutY="270.0" prefHeight="25.0" prefWidth="225.0" />
+            </children>
+        </Pane>
+        <HBox layoutX="12.0" layoutY="424.0" prefHeight="54.0" prefWidth="469.0">
+            <children>
+                <JFXButton fx:id="modify" prefHeight="54.0" prefWidth="239.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Modify" />
+                <JFXButton fx:id="cancle" prefHeight="54.0" prefWidth="239.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Cancle" />
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

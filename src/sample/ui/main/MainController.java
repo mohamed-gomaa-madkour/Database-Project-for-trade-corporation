@@ -21,7 +21,11 @@ public class MainController {
     @FXML
     private Tab D_tab;
 
+    @FXML
+    private JFXTextField DID;
 
+    @FXML
+    private Label Dname;
 
     @FXML
     private Button add_d;
@@ -55,11 +59,6 @@ public class MainController {
 
     @FXML
     private Button delete_c;
-    @FXML
-    private JFXTextField DID;
-
-    @FXML
-    private Label Dname;
 
     @FXML
     private Button view_c;
@@ -69,6 +68,30 @@ public class MainController {
 
     @FXML
     private Button settings_c;
+
+    @FXML
+    private Label type;
+
+    @FXML
+    private Label model;
+
+    @FXML
+    private Label p_price;
+
+    @FXML
+    private Label s_price;
+
+    @FXML
+    private Button add_p;
+
+    @FXML
+    private Button delete_p;
+
+    @FXML
+    private Button view_p;
+
+    @FXML
+    private Button modify_p;
 
     @FXML
     void loadAddCustomer(ActionEvent event) {
@@ -81,6 +104,13 @@ public class MainController {
     void loadAddDepartment(ActionEvent event) {
 
         loadWindow("/sample/ui/Department_Tab/AddDepartment/AddDepartment.fxml", "Add New Department");
+
+    }
+
+    @FXML
+    void loadAddProduct(ActionEvent event) {
+
+        loadWindow("/sample/ui/Product_Tab/AddProduct/AddProduct.fxml" , "Add New Product");
 
     }
 
@@ -99,6 +129,12 @@ public class MainController {
     }
 
     @FXML
+    void loadDeleteProduct(ActionEvent event) {
+        loadWindow("/sample/ui/Product_Tab/DeleteProduct/DeleteProduct.fxml", "Delete Product");
+
+    }
+
+    @FXML
     void loadModifyCustomer(ActionEvent event) {
         loadWindow("/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomer.fxml", "Modify Customer");
 
@@ -111,6 +147,12 @@ public class MainController {
     }
 
     @FXML
+    void loadModifyProduct(ActionEvent event) {
+        loadWindow("/sample/ui/Product_Tab/ModifyProduct/ModifyProduct.fxml", "Modify Product");
+
+    }
+
+    @FXML
     void loadViewCustomer(ActionEvent event) {
         loadWindow("/sample/ui/Customer_Tab/ViewCustomers/ViewCustomers.fxml", "All Customers");
 
@@ -119,6 +161,12 @@ public class MainController {
     @FXML
     void loadViewDepartment(ActionEvent event) {
         loadWindow("/sample/ui/Department_Tab/ViewDepartments/ViewDepartments.fxml", "All Departments");
+
+    }
+
+    @FXML
+    void loadViewProducts(ActionEvent event) {
+        loadWindow("/sample/ui/Product_Tab/ViewProducts/ViewProducts.fxml", "All Products");
 
     }
 
