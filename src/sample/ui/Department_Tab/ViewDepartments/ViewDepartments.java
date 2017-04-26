@@ -1,4 +1,4 @@
-package ui.main;
+package ui.Department_Tab.ViewDepartments;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,16 +6,13 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class ViewDepartments extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("Main.fxml"));
-        primaryStage.setTitle("Home Page");
+        Parent root = FXMLLoader.load(getClass().getResource("ViewDepartments.fxml"));
+        primaryStage.setTitle("View Dept");
         primaryStage.setScene(new Scene(root, 600, 500));
-
-
-
         primaryStage.show();
     }
 

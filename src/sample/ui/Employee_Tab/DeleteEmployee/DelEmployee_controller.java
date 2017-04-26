@@ -1,4 +1,4 @@
-package sample.ui.Employee_Tab.DeleteEmployee;
+package ui.Employee_Tab.DeleteEmployee;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;

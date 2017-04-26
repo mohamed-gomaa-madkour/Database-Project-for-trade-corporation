@@ -1,4 +1,4 @@
-package sample.ui.Employee_Tab.ModifyEmployee;
+package ui.Employee_Tab.ModifyEmployee;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;

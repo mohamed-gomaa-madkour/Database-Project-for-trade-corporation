@@ -1,4 +1,4 @@
-package sample.ui.Vendor_Tab.DeleteVendor;
+package ui.Vendor_Tab.DeleteVendor;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

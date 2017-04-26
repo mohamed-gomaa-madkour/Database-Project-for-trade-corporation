@@ -1,4 +1,4 @@
-package sample.ui.Vendor_Tab.ModifyVendor;
+package ui.Vendor_Tab.ModifyVendor;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;

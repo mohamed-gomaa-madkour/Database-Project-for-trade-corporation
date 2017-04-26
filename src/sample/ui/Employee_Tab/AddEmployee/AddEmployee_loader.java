@@ -1,10 +1,12 @@
-package sample.ui.Employee_Tab.AddEmployee;
+package ui.Employee_Tab.AddEmployee;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+
+import static javafx.application.Application.launch;
 
 /**
  * Created by MOHAM on 21/04/2017.

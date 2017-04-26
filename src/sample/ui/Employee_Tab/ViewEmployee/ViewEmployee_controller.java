@@ -1,4 +1,4 @@
-package sample.ui.Employee_Tab.ViewEmployee;
+package ui.Employee_Tab.ViewEmployee;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

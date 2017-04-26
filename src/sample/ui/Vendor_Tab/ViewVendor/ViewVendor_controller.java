@@ -1,4 +1,4 @@
-package sample.ui.Vendor_Tab.ViewVendor;
+package ui.Vendor_Tab.ViewVendor;
 import com.jfoenix.controls.JFXButton;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;

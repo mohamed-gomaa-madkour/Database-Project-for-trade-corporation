@@ -1,4 +1,4 @@
-package sample.ui.Employee_Tab.DeleteEmployee;
+package ui.Employee_Tab.DeleteEmployee;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

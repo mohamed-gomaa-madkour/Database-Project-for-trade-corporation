@@ -1,4 +1,4 @@
-package sample.ui.main;
+package ui.main;
 
 import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
@@ -123,7 +123,7 @@ public class MainController {
     @FXML
     void loadAddCustomer(ActionEvent event) {
 
-        loadWindow("/sample/ui/Customer_Tab/AddCustomer/AddCustomer.fxml", "Add New customer");
+       loadWindow("/sample/ui/Customer_Tab/AddCustomer/AddCustomer.fxml", "Add New customer");
 
     }
     @FXML
