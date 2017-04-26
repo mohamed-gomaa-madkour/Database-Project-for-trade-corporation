@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="426.0" prefWidth="607.0">
+         <children>
+            <Label layoutX="25.0" layoutY="14.0" text="Enter Employee ID :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="25.0" layoutY="53.0" text="Employee name :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="Ename" layoutX="167.0" layoutY="53.0" prefHeight="17.0" prefWidth="225.0" style="-fx-border-color: black;" />
+            <JFXTextField fx:id="enter_Eid" layoutX="167.0" layoutY="10.0" prefHeight="25.0" prefWidth="225.0" />
+            <Label layoutX="33.0" layoutY="177.0" text="1st Name :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <JFXTextField fx:id="new_1st_name" layoutX="136.0" layoutY="165.0" prefHeight="25.0" prefWidth="225.0" />
+            <Label layoutX="33.0" layoutY="206.0" text="Last Name :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="new_last_name" layoutX="136.0" layoutY="194.0" prefHeight="25.0" prefWidth="225.0" />
+            <Label layoutX="33.0" layoutY="235.0" text="SSN :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="new_ssn" layoutX="136.0" layoutY="223.0" prefHeight="25.0" prefWidth="225.0" />
+            <Label layoutX="33.0" layoutY="264.0" text="Salary :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="new_salary" layoutX="136.0" layoutY="252.0" prefHeight="25.0" prefWidth="225.0" />
+            <Label layoutX="33.0" layoutY="293.0" text="Age :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="new_age" layoutX="136.0" layoutY="281.0" prefHeight="25.0" prefWidth="225.0" />
+            <Label layoutX="33.0" layoutY="322.0" text="Birth Date :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="new_bdate" layoutX="136.0" layoutY="310.0" prefHeight="25.0" prefWidth="225.0" />
+            <Label layoutX="33.0" layoutY="351.0" text="Address :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="new_address" layoutX="136.0" layoutY="339.0" prefHeight="25.0" prefWidth="225.0" />
+            <Label layoutX="33.0" layoutY="380.0" text="Job :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="new_job" layoutX="136.0" layoutY="368.0" prefHeight="25.0" prefWidth="225.0" />
+            <Label layoutX="33.0" layoutY="409.0" text="Phone :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="new_phone" layoutX="136.0" layoutY="397.0" prefHeight="25.0" prefWidth="225.0" />
+            <Label layoutX="33.0" layoutY="148.0" text=" ID :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="new_Eid" layoutX="136.0" layoutY="136.0" prefHeight="25.0" prefWidth="225.0" />
+            <Line endX="500.0" fill="BLACK" layoutX="106.0" layoutY="100.0" opacity="0.61" startX="-100.0" />
+         </children>
+      </Pane>
+      <JFXButton fx:id="modifyE" layoutX="157.0" layoutY="469.0" prefHeight="42.0" prefWidth="158.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Modify" />
+      <JFXButton fx:id="cancleE" layoutX="330.0" layoutY="469.0" prefHeight="42.0" prefWidth="158.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Cancle" />
+   </children>
+</AnchorPane>

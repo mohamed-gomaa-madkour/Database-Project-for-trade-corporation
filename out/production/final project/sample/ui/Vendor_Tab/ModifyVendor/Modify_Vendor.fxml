@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="426.0" prefWidth="607.0">
+         <children>
+            <Label layoutX="25.0" layoutY="14.0" text="Enter Vendor ID :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="53.0" text="Vendor name :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="Vname" layoutX="167.0" layoutY="53.0" prefHeight="17.0" prefWidth="225.0" style="-fx-border-color: black;" />
+            <JFXTextField fx:id="enter_Vid" layoutX="167.0" layoutY="10.0" prefHeight="25.0" prefWidth="225.0" />
+            <Label layoutX="33.0" layoutY="177.0" text=" Name :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="new_Vname" layoutX="136.0" layoutY="165.0" prefHeight="25.0" prefWidth="225.0" />
+            <Label layoutX="33.0" layoutY="225.0" text="Address :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="new_Vaddress" layoutX="136.0" layoutY="213.0" prefHeight="25.0" prefWidth="225.0" />
+            <Label layoutX="33.0" layoutY="279.0" text="Phone :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="new_Vphone" layoutX="136.0" layoutY="267.0" prefHeight="25.0" prefWidth="225.0" />
+            <Line endX="500.0" fill="BLACK" layoutX="106.0" layoutY="100.0" opacity="0.61" startX="-100.0" />
+         </children>
+      </Pane>
+      <JFXButton fx:id="modifyV" layoutX="157.0" layoutY="469.0" prefHeight="42.0" prefWidth="158.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Modify" />
+      <JFXButton fx:id="cancleV" layoutX="330.0" layoutY="469.0" prefHeight="42.0" prefWidth="158.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Cancle" />
+   </children>
+</AnchorPane>
