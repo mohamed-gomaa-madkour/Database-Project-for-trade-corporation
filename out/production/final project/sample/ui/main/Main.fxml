@@ -67,7 +67,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../icons/settings.png" />
+                                                        <Image url="@../../icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -102,7 +102,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../icons/settings.png" />
+                                                        <Image url="@../../icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -137,7 +137,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../icons/settings.png" />
+                                                        <Image url="@../../icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -172,7 +172,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../icons/settings.png" />
+                                                        <Image url="@../../icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -207,7 +207,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../icons/settings.png" />
+                                                        <Image url="@../../icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -242,7 +242,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../icons/settings.png" />
+                                                        <Image url="@../../icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -277,7 +277,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../icons/settings.png" />
+                                                        <Image url="@../../icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
