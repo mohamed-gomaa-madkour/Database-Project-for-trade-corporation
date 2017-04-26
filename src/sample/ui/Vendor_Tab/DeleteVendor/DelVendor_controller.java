@@ -1,4 +1,4 @@
-package ui.Vendor_Tab.DeleteVendor;
+package sample.ui.Vendor_Tab.DeleteVendor;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;

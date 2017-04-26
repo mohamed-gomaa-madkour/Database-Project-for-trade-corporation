@@ -1,4 +1,4 @@
-package ui.Department_Tab.ViewDepartments;
+package sample.ui.Department_Tab.ViewDepartments;
 
 import com.jfoenix.controls.JFXButton;
 import javafx.fxml.FXML;

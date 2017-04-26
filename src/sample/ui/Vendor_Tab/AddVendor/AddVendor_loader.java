@@ -1,4 +1,4 @@
-package ui.Vendor_Tab.AddVendor;
+package sample.ui.Vendor_Tab.AddVendor;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

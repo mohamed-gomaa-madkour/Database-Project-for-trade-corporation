@@ -1,4 +1,4 @@
-package ui.Department_Tab.ModifyDepartment;
+package sample.ui.Department_Tab.ModifyDepartment;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;

@@ -1,4 +1,4 @@
-package ui.Department_Tab.DeleteDepartment;
+package sample.ui.Department_Tab.DeleteDepartment;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

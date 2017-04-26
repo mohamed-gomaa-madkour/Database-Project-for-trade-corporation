@@ -1,4 +1,4 @@
-package ui.Department_Tab.ModifyDepartment;
+package sample.ui.Department_Tab.ModifyDepartment;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

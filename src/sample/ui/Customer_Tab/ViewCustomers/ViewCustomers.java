@@ -1,4 +1,4 @@
-package ui.Customer_Tab.ViewCustomers;
+package sample.ui.Customer_Tab.ViewCustomers;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

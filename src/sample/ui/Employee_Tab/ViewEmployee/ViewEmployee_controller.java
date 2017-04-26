@@ -1,4 +1,4 @@
-package ui.Employee_Tab.ViewEmployee;
+package sample.ui.Employee_Tab.ViewEmployee;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -38,9 +38,12 @@ public class ViewEmployee_controller {
 
     @FXML
     private JFXButton cancle;
+
+    @FXML
+    private TableColumn<?, ?> dept_ID;
     @FXML
     void cancel_viewEmployee(ActionEvent event) {
-System.exit(1);
+
 
     }
 

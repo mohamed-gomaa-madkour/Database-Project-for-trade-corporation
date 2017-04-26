@@ -1,4 +1,4 @@
-package ui.Customer_Tab.ViewCustomers;
+package sample.ui.Customer_Tab.ViewCustomers;
 
 import com.jfoenix.controls.JFXButton;
 import javafx.fxml.FXML;

@@ -1,4 +1,4 @@
-package ui.Vendor_Tab.ModifyVendor;
+package sample.ui.Vendor_Tab.ModifyVendor;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;
@@ -26,5 +26,7 @@ public class ModifyVendor_controller {
 
     @FXML
     private JFXButton cancleV;
+    @FXML
+    private JFXTextField new_VID;
 
 }

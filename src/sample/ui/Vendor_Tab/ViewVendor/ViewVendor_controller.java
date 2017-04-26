@@ -1,9 +1,13 @@
-package ui.Vendor_Tab.ViewVendor;
+package sample.ui.Vendor_Tab.ViewVendor;
 import com.jfoenix.controls.JFXButton;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 
 public class ViewVendor_controller {
+
+
+    @FXML
+    private TableColumn<?, ?> vID;
 
     @FXML
     private TableColumn<?, ?> name;

@@ -1,4 +1,4 @@
-package ui.Customer_Tab.ModifyCustomer;
+package sample.ui.Customer_Tab.ModifyCustomer;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

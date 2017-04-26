@@ -1,4 +1,4 @@
-package ui.main;
+package sample.ui.main;
 
 import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
@@ -48,13 +48,16 @@ public class MainController {
     private Button modifyE;
 
     @FXML
-    private JFXTextField vname;
+    private JFXTextField vID;
 
     @FXML
     private Label v_add;
 
     @FXML
     private Label v_phone;
+
+    @FXML
+    private Label v_name;
 
     @FXML
     private Button Add_v;
@@ -118,7 +121,6 @@ public class MainController {
 
     @FXML
     private Button settings_c;
-
 
     @FXML
     void loadAddCustomer(ActionEvent event) {

@@ -1,4 +1,4 @@
-package ui.Employee_Tab.ModifyEmployee;
+package sample.ui.Employee_Tab.ModifyEmployee;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

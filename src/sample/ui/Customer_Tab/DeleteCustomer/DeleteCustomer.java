@@ -1,4 +1,4 @@
-package ui.Customer_Tab.DeleteCustomer;
+package sample.ui.Customer_Tab.DeleteCustomer;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

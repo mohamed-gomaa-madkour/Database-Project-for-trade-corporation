@@ -1,4 +1,4 @@
-package ui.Employee_Tab.ModifyEmployee;
+package sample.ui.Employee_Tab.ModifyEmployee;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;
@@ -48,5 +48,7 @@ public class ModifyEmployee_controller {
 
     @FXML
     private JFXButton cancleE;
+    @FXML
+    private JFXTextField new_DID;
 
 }

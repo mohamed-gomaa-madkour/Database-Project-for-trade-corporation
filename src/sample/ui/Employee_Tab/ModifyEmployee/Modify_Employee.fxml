@@ -82,6 +82,12 @@
             </Label>
             <JFXTextField fx:id="new_Eid" layoutX="136.0" layoutY="136.0" prefHeight="25.0" prefWidth="225.0" />
             <Line endX="500.0" fill="BLACK" layoutX="106.0" layoutY="100.0" opacity="0.61" startX="-100.0" />
+            <Label layoutX="33.0" layoutY="119.0" text=" Dept_ID :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="new_DID" layoutX="136.0" layoutY="107.0" prefHeight="25.0" prefWidth="225.0" />
          </children>
       </Pane>
       <JFXButton fx:id="modifyE" layoutX="157.0" layoutY="469.0" prefHeight="42.0" prefWidth="158.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Modify" />

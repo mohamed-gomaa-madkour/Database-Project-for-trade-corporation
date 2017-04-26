@@ -1,4 +1,4 @@
-package ui.Employee_Tab.AddEmployee;
+package sample.ui.Employee_Tab.AddEmployee;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

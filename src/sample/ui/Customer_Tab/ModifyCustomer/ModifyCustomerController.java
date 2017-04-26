@@ -1,4 +1,4 @@
-package ui.Customer_Tab.ModifyCustomer;
+package sample.ui.Customer_Tab.ModifyCustomer;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
