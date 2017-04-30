@@ -4,15 +4,16 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.PurchaseInvoice.ViewInvoice.ViewInvoiceController">
+<AnchorPane prefHeight="406.0" prefWidth="901.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.PurchaseInvoice.ViewInvoice.ViewInvoiceController">
    <children>
-      <TableView layoutX="-8.0" layoutY="-3.0" prefHeight="409.0" prefWidth="608.0">
+      <TableView layoutX="-8.0" layoutY="-3.0" prefHeight="409.0" prefWidth="910.0">
         <columns>
           <TableColumn prefWidth="159.0" text="Serial" />
           <TableColumn prefWidth="139.0" text="Date" />
             <TableColumn prefWidth="159.0" text="Items" />
             <TableColumn prefWidth="159.0" text="Total Price" />
+            <TableColumn prefWidth="141.0" text="Vendor ID" />
+            <TableColumn minWidth="9.0" prefWidth="152.0" text="Employee ID" />
         </columns>
       </TableView>
    </children>
