@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="initial">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/final project/sample/Customer_Tab/AddCustomer/AddCustomer.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/final project/sample/Customer_Tab/DeleteCustomer/DeleteCustomer.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/final project/sample/Customer_Tab/ModifyCustomer/ModifyCustomer.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/final project/sample/Customer_Tab/ViewCustomers/ViewCustomers.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/final project/sample/Department_Tab/AddDepartment/AddDepartment.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/final project/sample/Department_Tab/DeleteDepartment/DeleteDepartment.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/final project/sample/Department_Tab/ModifyDepartment/ModifyDepartment.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/final project/sample/Department_Tab/ViewDepartments/ViewDepartments.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/employeeTab/Add_Employee/Add Employee.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/employeeTab/Add_Employee/AddEmployee_controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/employeeTab/Add_Employee/AddEmployee_loader.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/main/MainController.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/main/MainController.class" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/main/MainController.java" afterPath="$PROJECT_DIR$/src/sample/ui/main/MainController.java" />
     </list>
@@ -78,9 +66,17 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/ui/main/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="244" column="0" lean-forward="true" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-368">
+              <caret line="252" column="85" lean-forward="false" selection-start-line="252" selection-start-column="85" selection-end-line="252" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4921#4922#0" expanded="true" />
+                <element signature="e#5016#5017#0" expanded="true" />
+                <element signature="e#5651#5652#0" expanded="true" />
+                <element signature="e#5751#5752#0" expanded="true" />
+                <element signature="e#5793#5794#0" expanded="true" />
+                <element signature="e#5889#5890#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,7 +116,18 @@
           <provider editor-type-id="text-editor">
             <state relative-caret-position="1972">
               <caret line="116" column="97" lean-forward="false" selection-start-line="116" selection-start-column="97" selection-end-line="116" selection-end-column="97" />
-              <folding />
+              <folding>
+                <marker date="1493585967081" expanded="true" signature="24372:24454" ph="..." />
+                <marker date="1493585967081" expanded="true" signature="24372:24515" ph="..." />
+                <marker date="1493585967081" expanded="true" signature="24372:24570" ph="..." />
+                <marker date="1493585967081" expanded="true" signature="24372:24620" ph="..." />
+                <marker date="1493585967081" expanded="true" signature="24372:24668" ph="..." />
+                <marker date="1493585967081" expanded="true" signature="24372:24708" ph="..." />
+                <marker date="1493585967081" expanded="true" signature="24372:24748" ph="..." />
+                <marker date="1493585967081" expanded="true" signature="24372:24786" ph="..." />
+                <marker date="1493585967081" expanded="true" signature="24372:24817" ph="..." />
+                <marker date="1493585967081" expanded="true" signature="24372:24840" ph="..." />
+              </folding>
             </state>
           </provider>
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
@@ -368,32 +375,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation confilect2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation confilect2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Employee_Tab" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -451,6 +432,7 @@
     <property name="settings.editor.selected.configurable" value="ics" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.splitter.proportion" value="0.23385519" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1008,12 +990,20 @@
       <workItem from="1493150875388" duration="156000" />
       <workItem from="1493164186846" duration="317000" />
       <workItem from="1493195633691" duration="8546000" />
-      <workItem from="1493585272481" duration="513000" />
+      <workItem from="1493585272481" duration="1913000" />
     </task>
+    <task id="LOCAL-00001" summary="resolve conflict">
+      <created>1493585904632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1493585904632</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50449000" />
+    <option name="totallyTimeSpent" value="51849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
@@ -1060,6 +1050,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="resolve conflict" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolve conflict" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1345,7 +1339,18 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1972">
           <caret line="116" column="97" lean-forward="false" selection-start-line="116" selection-start-column="97" selection-end-line="116" selection-end-column="97" />
-          <folding />
+          <folding>
+            <marker date="1493585967081" expanded="true" signature="24372:24454" ph="..." />
+            <marker date="1493585967081" expanded="true" signature="24372:24515" ph="..." />
+            <marker date="1493585967081" expanded="true" signature="24372:24570" ph="..." />
+            <marker date="1493585967081" expanded="true" signature="24372:24620" ph="..." />
+            <marker date="1493585967081" expanded="true" signature="24372:24668" ph="..." />
+            <marker date="1493585967081" expanded="true" signature="24372:24708" ph="..." />
+            <marker date="1493585967081" expanded="true" signature="24372:24748" ph="..." />
+            <marker date="1493585967081" expanded="true" signature="24372:24786" ph="..." />
+            <marker date="1493585967081" expanded="true" signature="24372:24817" ph="..." />
+            <marker date="1493585967081" expanded="true" signature="24372:24840" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1376,9 +1381,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/main/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="244" column="0" lean-forward="true" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-368">
+          <caret line="252" column="85" lean-forward="false" selection-start-line="252" selection-start-column="85" selection-end-line="252" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4921#4922#0" expanded="true" />
+            <element signature="e#5016#5017#0" expanded="true" />
+            <element signature="e#5651#5652#0" expanded="true" />
+            <element signature="e#5751#5752#0" expanded="true" />
+            <element signature="e#5793#5794#0" expanded="true" />
+            <element signature="e#5889#5890#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

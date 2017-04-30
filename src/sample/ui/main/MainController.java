@@ -247,4 +247,47 @@ public class MainController {
     void loadAddEmployee(ActionEvent event) {
         loadWindow("/sample/ui/Employee_Tab/AddEmployee/add_Employee.fxml", "Add Employee");
     }
+
+    @FXML
+    void loadAddInvoice1() {
+        loadWindow("/sample/ui/SalesInvoice/AddInvoice/AddInvoice1.fxml","Add Invoice");
+    }
+
+    @FXML
+    void loadDeleteInvoice() {
+        loadWindow("/sample/ui/PurchaseInvoice/DeleteInvoice/DeleteInvoice1.fxml","Delete Invoice");
+    }
+
+    @FXML
+    void loadDeleteInvoice1() {
+        loadWindow("/sample/ui/SalesInvoice/DeleteInvoice/DeleteInvoice1.fxml","Delete Invoice");
+
+    }
+
+    @FXML
+    void loadModifyInvoice() {
+        loadWindow("/sample/ui/PurchaseInvoice/ModifyInvoice/ModifyInvoice1.fxml","Modify Invoice");
+
+    }
+
+    @FXML
+    void loadModifyInvoice1() {
+        loadWindow("/sample/ui/SalesInvoice/ModifyInvoice/ModifyInvoice1.fxml","Modify Invoice");
+    }
+
+    @FXML
+    void loadViewInvoices() {
+        loadWindow("/sample/ui/PurchaseInvoice/ViewInvoice/ViewInvoice.fxml","All Invoices");
+    }
+
+    @FXML
+    void loadViewInvoices1() {
+        loadWindow("/sample/ui/SalesInvoice/ViewInvoice/ViewInvoice.fxml","All Invoice");
+    }
+
+    @FXML
+    void loadAddInvoice() {
+        loadWindow("/sample/ui/PurchaseInvoice/AddInvoice/AddInvoice1.fxml","Add Invoice");
+
+    }
 }
