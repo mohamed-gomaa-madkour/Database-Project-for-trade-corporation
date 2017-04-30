@@ -49,20 +49,28 @@
                             <children>
                                 <Pane layoutX="162.0" layoutY="24.0" prefHeight="291.0" prefWidth="416.0" style="-fx-background-color: #e7e7e7;">
                                     <children>
-                                        <JFXTextField layoutX="176.0" layoutY="15.0" prefHeight="25.0" prefWidth="77.0" promptText="ID" />
+                                        <JFXTextField fx:id="e_id" layoutX="176.0" layoutY="15.0" prefHeight="25.0" prefWidth="77.0" promptText="ID" />
                                         <Label layoutX="78.0" layoutY="17.0" text="Search by ID">
                                             <font>
                                                 <Font size="14.0" />
                                             </font>
                                         </Label>
+                              <Label layoutX="30.0" layoutY="70.0" text="Name :" />
+                              <Label layoutX="29.0" layoutY="102.0" text="Phone :" />
+                              <Label fx:id="E_name" layoutX="91.0" layoutY="70.0" prefHeight="19.0" prefWidth="245.0" style="-fx-border-color: black;" />
+                              <Label fx:id="E_phone" layoutX="91.0" layoutY="101.0" prefHeight="19.0" prefWidth="245.0" style="-fx-border-color: black;" />
+                              <Label layoutX="29.0" layoutY="137.0" text="Age :" />
+                              <Label fx:id="E_age" layoutX="91.0" layoutY="136.0" prefHeight="19.0" prefWidth="245.0" style="-fx-border-color: black;" />
+                              <Label fx:id="E_job" layoutX="92.0" layoutY="170.0" prefHeight="19.0" prefWidth="245.0" style="-fx-border-color: black;" />
+                              <Label layoutX="29.0" layoutY="171.0" text="Job :" />
                                     </children>
                                 </Pane>
                                 <VBox layoutY="5.0" prefHeight="329.0" prefWidth="154.0">
                                     <children>
-                                        <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Add Employee" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Delete Employee" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="View Employees" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Modify Employee" />
+                                        <Button fx:id="addE" contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAddEmployee" prefHeight="150.0" prefWidth="154.0" text="Add Employee" />
+                                        <Button fx:id="delE" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadDeleteEmployee" prefHeight="150.0" prefWidth="154.0" text="Delete Employee" />
+                                        <Button fx:id="viewE" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadViewEmployee" prefHeight="150.0" prefWidth="154.0" text="View Employees" />
+                                        <Button fx:id="modifyE" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadModifyEmployee" prefHeight="150.0" prefWidth="154.0" text="Modify Employee" />
                                         <Button contentDisplay="TOP" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Settings">
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
@@ -78,26 +86,32 @@
                         </AnchorPane>
                     </content>
                 </Tab>
-                <Tab text="Vendors">
+                <Tab text="Vendor">
                     <content>
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                             <children>
                                 <Pane layoutX="162.0" layoutY="24.0" prefHeight="291.0" prefWidth="416.0" style="-fx-background-color: #e7e7e7;">
                                     <children>
-                                        <JFXTextField layoutX="176.0" layoutY="15.0" prefHeight="25.0" prefWidth="105.0" promptText="ID" />
+                                        <JFXTextField fx:id="vID" layoutX="199.0" layoutY="15.0" prefHeight="25.0" prefWidth="105.0" promptText="ID" />
                                         <Label layoutX="78.0" layoutY="17.0" text="Search by ID">
                                             <font>
                                                 <Font size="14.0" />
                                             </font>
                                         </Label>
+                              <Label layoutX="56.0" layoutY="139.0" text="Address :" />
+                              <Label layoutX="60.0" layoutY="187.0" text="Phone :" />
+                              <Label fx:id="v_add" layoutX="131.0" layoutY="138.0" prefHeight="19.0" prefWidth="245.0" style="-fx-border-color: black;" />
+                              <Label fx:id="v_phone" layoutX="131.0" layoutY="186.0" prefHeight="19.0" prefWidth="245.0" style="-fx-border-color: black;" />
+                              <Label layoutX="56.0" layoutY="94.0" text="Name :" />
+                              <Label fx:id="v_name" layoutX="131.0" layoutY="93.0" prefHeight="19.0" prefWidth="245.0" style="-fx-border-color: black;" />
                                     </children>
                                 </Pane>
                                 <VBox layoutY="5.0" prefHeight="329.0" prefWidth="154.0">
                                     <children>
-                                        <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Add Vendor" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Delete Vendor" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="View Vendors" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Modify Vendor" />
+                                        <Button fx:id="Add_v" contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAddVendor" prefHeight="150.0" prefWidth="154.0" text="Add Vendor" />
+                                        <Button fx:id="del_v" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadDeleteVendor" prefHeight="150.0" prefWidth="154.0" text="Delete Vendor" />
+                                        <Button fx:id="view_v" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadViewVendor" prefHeight="150.0" prefWidth="154.0" text="View Vendors" />
+                                        <Button fx:id="modify_v" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadModifyVendor" prefHeight="150.0" prefWidth="154.0" text="Modify Vendor" />
                                         <Button contentDisplay="TOP" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Settings">
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
@@ -150,7 +164,7 @@
                         </AnchorPane>
                     </content>
                 </Tab>
-                <Tab fx:id="C_tab" text="Costomer">
+                <Tab fx:id="C_tab" text="Customer">
                     <content>
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                             <children>
@@ -170,10 +184,10 @@
                                 </Pane>
                                 <VBox layoutY="5.0" prefHeight="329.0" prefWidth="154.0">
                                     <children>
-                                        <Button fx:id="add_c" contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAddCustomer" prefHeight="150.0" prefWidth="154.0" text="Add Costomer" />
-                                        <Button fx:id="delete_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadDeleteCustomer" prefHeight="150.0" prefWidth="154.0" text="Delete Costomer" />
-                                        <Button fx:id="view_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadViewCustomer" prefHeight="150.0" prefWidth="154.0" text="View Costomers" />
-                                        <Button fx:id="modify_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadModifyCustomer" prefHeight="150.0" prefWidth="154.0" text="Modify Costomer" />
+                                        <Button fx:id="add_c" contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAddCustomer" prefHeight="150.0" prefWidth="154.0" text="Add Customer" />
+                                        <Button fx:id="delete_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadDeleteCustomer" prefHeight="150.0" prefWidth="154.0" text="Delete Customer" />
+                                        <Button fx:id="view_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadViewCustomer" prefHeight="150.0" prefWidth="154.0" text="View Customers" />
+                                        <Button fx:id="modify_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadModifyCustomer" prefHeight="150.0" prefWidth="154.0" text="Modify Customer" />
                                         <Button fx:id="settings_c" contentDisplay="TOP" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Settings">
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">

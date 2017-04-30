@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="initial">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/main/MainController.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/main/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/main/Main.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/main/Main.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/main/MainController.java" afterPath="$PROJECT_DIR$/src/sample/ui/main/MainController.java" />
-    </list>
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="initial" />
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,91 +60,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/ui/main/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="73" column="45" lean-forward="true" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="262">
+              <caret line="122" column="30" lean-forward="false" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../software engineering/Database-Project-for-trade-corporation/src/sample/ui/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddEmployee_controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/AddEmployee_controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModifyEmployee_controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Main.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/ui/main/Main.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1925">
-              <caret line="170" column="89" lean-forward="false" selection-start-line="170" selection-start-column="89" selection-end-line="170" selection-end-column="89" />
-              <folding>
-                <marker date="1492994650947" expanded="true" signature="13357:14107" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="13357:14147" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="13357:14187" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="13357:14225" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="13357:14256" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="13357:14279" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="13357:22615" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="13357:22637" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="13357:22653" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="13357:22667" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="13486:14059" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="13540:14009" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="13674:13954" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="13734:13893" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="14325:17054" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="14355:17031" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="14460:17000" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="14499:16962" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="14645:15240" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="14692:15200" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="14931:15152" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="14982:15103" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="15330:16922" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="15377:16882" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="16315:16784" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="16449:16729" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="16509:16668" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="17097:19826" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="17127:19803" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="17232:19772" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="17271:19734" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="17417:18012" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="17464:17972" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="17703:17924" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="17754:17875" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="18102:19694" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="18149:19654" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="19087:19556" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="19221:19501" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="19281:19440" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="19864:22595" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="19894:22572" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="19999:22541" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="20038:22503" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="20184:20778" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="20231:20738" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="20469:20690" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="20520:20641" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="20868:22463" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="20915:22423" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="21802:22375" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="21856:22325" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="21990:22270" ph="..." />
-                <marker date="1492994650947" expanded="true" signature="22050:22209" ph="..." />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
             <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="116" column="97" lean-forward="false" selection-start-line="116" selection-start-column="97" selection-end-line="116" selection-end-column="97" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ui/main/Main.java">
+      <file leaf-file-name="View_Employee.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/View_Employee.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="216">
+              <caret line="27" column="84" lean-forward="false" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewEmployee_controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/ViewEmployee_controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewEmployee_loader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/ViewEmployee_loader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewVendor_controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ViewVendor/ViewVendor_controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -163,8 +173,8 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="XSLT Stylesheet" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -174,6 +184,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -189,23 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/sample/Department_Tab/AddDepartment/AddDepartment.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Department_Tab/AddDepartment/AddDepartment.java" />
-        <option value="$PROJECT_DIR$/src/sample/Department_Tab/AddDepartment/AddDepartmentController.java" />
-        <option value="D:/jdk1.7.0_80/jre/lib/jfxrt.jar!/javafx/application/Application.class" />
-        <option value="$PROJECT_DIR$/src/sample/Department_Tab/DeleteDepartment/DeleteDepartment.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Department_Tab/DeleteDepartment/DeleteDepartmentController.java" />
-        <option value="$PROJECT_DIR$/src/sample/Department_Tab/DeleteDepartment/DeleteDepartment.java" />
-        <option value="$PROJECT_DIR$/src/sample/Department_Tab/ViewDepartments/ViewDepartmnts.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Department_Tab/ViewDepartments/ViewDepartmntsController.java" />
-        <option value="$PROJECT_DIR$/src/sample/Department_Tab/ViewDepartments/ViewDepartmentsController.java" />
-        <option value="$PROJECT_DIR$/src/sample/Department_Tab/ModifyDepartment/ModifyDepartment.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Department_Tab/ModifyDepartment/ModifyDepartmentController.java" />
-        <option value="$PROJECT_DIR$/src/sample/Department_Tab/ModifyDepartment/ModifyDepartment.java" />
-        <option value="$PROJECT_DIR$/src/sample/Customer_Tab/AddCustomer/AddCustomer.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Customer_Tab/AddCustomer/AddCustomerController.java" />
         <option value="$PROJECT_DIR$/src/sample/Customer_Tab/AddCustomer/AddCustomer.java" />
         <option value="$PROJECT_DIR$/src/sample/Customer_Tab/DeleteCustomer/DeleteCustomer.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Customer_Tab/DeleteCustomer/DeleteCustomerController.java" />
@@ -225,7 +219,38 @@
         <option value="$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartment.fxml" />
         <option value="$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartment.fxml" />
         <option value="$PROJECT_DIR$/src/sample/ui/Department_Tab/ModifyDepartment/ModifyDepartment.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/add_Employee.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/add_Employee.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/add_Employee.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/AddEmployee_loader.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/AddEmployee_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/AddEmployee_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/AddEmployee_loader.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/AddEmployee_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/add_Employee.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ui/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/main/Main.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/DelEmployee_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/Del_Employee.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/DelEmployee_loader.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/Modify_Employee.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_loader.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/ViewEmployee_loader.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ViewVendor/View_Vendor.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ViewVendor/ViewVendor_loader.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/AddVendor_loader.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/ModifyVendor_loader.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/DelVendor_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/DelVendor_loader.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/add_Vendor.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/AddVendor_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/ViewEmployee_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/ModifyVendor_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ViewVendor/ViewVendor_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/View_Employee.fxml" />
         <option value="$PROJECT_DIR$/src/sample/ui/main/MainController.java" />
+        <option value="$PROJECT_DIR$/../software engineering/Database-Project-for-trade-corporation/src/sample/ui/main/Main.java" />
       </list>
     </option>
   </component>
@@ -239,8 +264,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -261,13 +286,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -277,35 +303,21 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jfoenix.jar" />
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -316,14 +328,112 @@
               <option name="myItemId" value="sample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vendor_Tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewVendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vendor_Tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModifyVendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vendor_Tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vendor_Tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AddVendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -345,11 +455,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -365,17 +475,111 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Add_Employee" />
+              <option name="myItemId" value="Employee_Tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewEmployee" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Employee_Tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModifyEmployee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Employee_Tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeleteEmployee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Employee_Tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AddEmployee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -391,9 +595,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-tradecorporation-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,16 +629,23 @@
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/programs/jfoenix.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="ics" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.splitter.proportion" value="0.23385519" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\employeeTab\Add_Employee\ِAddEmployee" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\Vendor_Tab" />
+      <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\Employee_Tab\ViewEmployee" />
+      <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\Employee_Tab\ModifyEmployee" />
+      <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\Employee_Tab\DeleteEmployee" />
       <recent name="D:\final project\src\sample" />
     </key>
   </component>
@@ -434,66 +662,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
-    <configuration default="false" name="AddCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sample.ui.Customer_Tab.AddCustomer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="sample.ui.Customer_Tab.AddCustomer.AddCustomer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="final project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="DeleteCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sample.ui.Customer_Tab.DeleteCustomer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="sample.ui.Customer_Tab.DeleteCustomer.DeleteCustomer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="final project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="AddDepartment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sample.ui.Department_Tab.AddDepartment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="sample.ui.Department_Tab.AddDepartment.AddDepartment" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="final project" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="ModifyCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -522,6 +690,66 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="sample.ui.main.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="final project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AddEmployee_loader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.ui.Employee_Tab.AddEmployee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sample.ui.Employee_Tab.AddEmployee.AddEmployee_loader" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="final project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AddCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.ui.Customer_Tab.AddCustomer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sample.ui.Customer_Tab.AddCustomer.AddCustomer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="final project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DelVendor_loader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.ui.Vendor_Tab.DeleteVendor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sample.ui.Vendor_Tab.DeleteVendor.DelVendor_loader" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -618,6 +846,65 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
@@ -904,19 +1191,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AddCustomer" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DeleteCustomer" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AddDepartment" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ModifyCustomer" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ModifyCustomer" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AddEmployee_loader" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AddCustomer" />
+      <item index="5" class="java.lang.String" itemvalue="Application.DelVendor_loader" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ModifyCustomer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AddDepartment" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DeleteCustomer" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AddCustomer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DelVendor_loader" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AddEmployee_loader" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AddCustomer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ModifyCustomer" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -959,31 +1246,38 @@
       <workItem from="1492802198734" duration="17178000" />
       <workItem from="1492823138320" duration="22000" />
       <workItem from="1492825858673" duration="1116000" />
+      <workItem from="1493128283979" duration="12999000" />
+      <workItem from="1493144479147" duration="2290000" />
+      <workItem from="1493146851545" duration="3091000" />
+      <workItem from="1493150875388" duration="156000" />
+      <workItem from="1493164186846" duration="317000" />
+      <workItem from="1493195633691" duration="8546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22537000" />
+    <option name="totallyTimeSpent" value="49936000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1378" height="780" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7437326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32537314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27570695" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2701909" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -992,39 +1286,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32724902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25625" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1034,7 +1305,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sample/ui/main/Main.java</url>
+          <line>8</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1042,53 +1322,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/dept" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/AddDepartment/AddDepartment.tld" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/AddDepartment/AddDepartment.xsl" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/AddDepartment/AddDepartment" />
-    <entry file="jar://D:/jdk1.7.0_80/jre/lib/jfxrt.jar!/javafx/application/Application.class" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/DeleteDepartment/DeleteDepartmentController.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/AddDepartment/AddDepartmentController.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/ViewDepartments/ViewDepartmentsController.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/ModifyDepartment/ModifyDepartmentController.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/AddDepartment/AddDepartment.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/AddDepartment/AddDepartment.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Customer_Tab/AddCustomer/AddCustomer.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Customer_Tab/AddCustomer/AddCustomerController.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Customer_Tab/AddCustomer/AddCustomer.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/DeleteDepartment/DeleteDepartment.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Customer_Tab/DeleteCustomer/DeleteCustomer.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Customer_Tab/DeleteCustomer/DeleteCustomerController.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/DeleteDepartment/DeleteDepartment.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Customer_Tab/DeleteCustomer/DeleteCustomer.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/ModifyDepartment/ModifyDepartment.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Customer_Tab/ModifyCustomer/ModifyCustomer.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Customer_Tab/ModifyCustomer/ModifyCustomerController.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/ModifyDepartment/ModifyDepartment.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Customer_Tab/ModifyCustomer/ModifyCustomer.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Customer_Tab/t" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/ViewDepartments/ViewDepartments.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Department_Tab/ViewDepartments/ViewDepartments.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Customer_Tab/ViewCustomers/ViewCustomers.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Customer_Tab/ViewCustomers/ViewCustomersController.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Customer_Tab/ViewCustomers/ViewCustomers.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/employeeTab/Add_Employee/AddEmployee_loader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee_loader.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/buttonsStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1097,153 +1333,53 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/ViewCustomers/ViewCustomers.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/employeeTab/Add_Employee/AddEmployee_controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartment.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee_controller.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartment.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/main/Main.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1925">
-          <caret line="170" column="89" lean-forward="false" selection-start-line="170" selection-start-column="89" selection-end-line="170" selection-end-column="89" />
-          <folding>
-            <marker date="1492994650947" expanded="true" signature="13357:14107" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="13357:14147" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="13357:14187" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="13357:14225" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="13357:14256" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="13357:14279" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="13357:22615" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="13357:22637" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="13357:22653" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="13357:22667" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="13486:14059" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="13540:14009" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="13674:13954" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="13734:13893" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="14325:17054" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="14355:17031" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="14460:17000" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="14499:16962" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="14645:15240" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="14692:15200" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="14931:15152" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="14982:15103" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="15330:16922" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="15377:16882" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="16315:16784" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="16449:16729" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="16509:16668" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="17097:19826" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="17127:19803" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="17232:19772" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="17271:19734" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="17417:18012" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="17464:17972" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="17703:17924" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="17754:17875" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="18102:19694" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="18149:19654" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="19087:19556" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="19221:19501" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="19281:19440" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="19864:22595" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="19894:22572" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="19999:22541" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="20038:22503" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="20184:20778" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="20231:20738" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="20469:20690" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="20520:20641" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="20868:22463" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="20915:22423" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="21802:22375" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="21856:22325" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="21990:22270" ph="..." />
-            <marker date="1492994650947" expanded="true" signature="22050:22209" ph="..." />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/ModifyDepartment/ModifyDepartment.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomer.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomer.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomer.fxml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1261,13 +1397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1275,21 +1404,245 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/main/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ِAddEmployee/add_Employee.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ِAddEmployee/addEmployee.css" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartment.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomer.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/addVendor.css" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/AddEmployee_loader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_loader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/AddVendor_loader.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/Modify_Vendor.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/ModifyVendor_loader.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ViewVendor/ViewVendor_loader.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ViewVendor/View_Vendor.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/DelVendor_controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/Del_Vendor.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/DelVendor_loader.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/DelEmployee_loader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#574#575#0" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/DelEmployee_controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/add_Vendor.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/add_Employee.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="79" column="15" lean-forward="false" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/Modify_Employee.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/Del_Employee.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/AddVendor_controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/ModifyVendor_controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ViewVendor/ViewVendor_controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/ViewEmployee_loader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/ViewEmployee_controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/View_Employee.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="84" lean-forward="false" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/main/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="73" column="45" lean-forward="true" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="262">
+          <caret line="122" column="30" lean-forward="false" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/main/Main.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="116" column="97" lean-forward="false" selection-start-line="116" selection-start-column="97" selection-end-line="116" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../software engineering/Database-Project-for-trade-corporation/src/sample/ui/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/AddEmployee_controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
