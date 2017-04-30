@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="change add and view all">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Login/keylogin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Login/mall-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Login/LoginController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Login/LoginLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Login/login.fxml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/final project/sample/Controller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/main/Main.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/main/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/main/MainController.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/main/MainController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/main/MainController.java" afterPath="$PROJECT_DIR$/src/sample/ui/main/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/main/Main.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/main/Main.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,11 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/ui/main/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-368">
-              <caret line="252" column="85" lean-forward="false" selection-start-line="252" selection-start-column="85" selection-end-line="252" selection-end-column="85" />
+            <state relative-caret-position="27">
+              <caret line="120" column="104" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="104" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4921#4922#0" expanded="true" />
@@ -76,6 +85,49 @@
                 <element signature="e#5751#5752#0" expanded="true" />
                 <element signature="e#5793#5794#0" expanded="true" />
                 <element signature="e#5889#5890#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/Login/login.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding>
+                <marker date="1493591589913" expanded="true" signature="1651:1759" ph="..." />
+                <marker date="1493591589913" expanded="true" signature="1671:1738" ph="..." />
+                <marker date="1493591589913" expanded="true" signature="1870:1979" ph="..." />
+                <marker date="1493591589913" expanded="true" signature="1890:1958" ph="..." />
+                <marker date="1493591589913" expanded="true" signature="2105:2162" ph="..." />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/Login/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginLoader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/Login/LoginLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,90 +143,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddEmployee_controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/AddEmployee_controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModifyEmployee_controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/ui/main/Main.fxml">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="1972">
               <caret line="116" column="97" lean-forward="false" selection-start-line="116" selection-start-column="97" selection-end-line="116" selection-end-column="97" />
               <folding>
-                <marker date="1493585967081" expanded="true" signature="24372:24454" ph="..." />
-                <marker date="1493585967081" expanded="true" signature="24372:24515" ph="..." />
-                <marker date="1493585967081" expanded="true" signature="24372:24570" ph="..." />
-                <marker date="1493585967081" expanded="true" signature="24372:24620" ph="..." />
-                <marker date="1493585967081" expanded="true" signature="24372:24668" ph="..." />
-                <marker date="1493585967081" expanded="true" signature="24372:24708" ph="..." />
-                <marker date="1493585967081" expanded="true" signature="24372:24748" ph="..." />
-                <marker date="1493585967081" expanded="true" signature="24372:24786" ph="..." />
-                <marker date="1493585967081" expanded="true" signature="24372:24817" ph="..." />
-                <marker date="1493585967081" expanded="true" signature="24372:24840" ph="..." />
+                <marker date="1493590115665" expanded="true" signature="24372:24454" ph="..." />
+                <marker date="1493590115665" expanded="true" signature="24372:24515" ph="..." />
+                <marker date="1493590115665" expanded="true" signature="24372:24570" ph="..." />
+                <marker date="1493590115665" expanded="true" signature="24372:24620" ph="..." />
+                <marker date="1493590115665" expanded="true" signature="24372:24668" ph="..." />
+                <marker date="1493590115665" expanded="true" signature="24372:24708" ph="..." />
+                <marker date="1493590115665" expanded="true" signature="24372:24748" ph="..." />
+                <marker date="1493590115665" expanded="true" signature="24372:24786" ph="..." />
+                <marker date="1493590115665" expanded="true" signature="24372:24817" ph="..." />
+                <marker date="1493590115665" expanded="true" signature="24372:24840" ph="..." />
               </folding>
             </state>
           </provider>
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View_Employee.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/View_Employee.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="84" lean-forward="false" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewEmployee_controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/ViewEmployee_controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewEmployee_loader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/ViewEmployee_loader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewVendor_controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ViewVendor/ViewVendor_controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -186,6 +175,7 @@
         <option value="Tag Library Descriptor" />
         <option value="XSLT Stylesheet" />
         <option value="CSS File" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -212,9 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/Customer_Tab/AddCustomer/AddCustomer.java" />
-        <option value="$PROJECT_DIR$/src/sample/Customer_Tab/DeleteCustomer/DeleteCustomer.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Customer_Tab/DeleteCustomer/DeleteCustomerController.java" />
         <option value="$PROJECT_DIR$/src/sample/Customer_Tab/DeleteCustomer/DeleteCustomer.java" />
         <option value="$PROJECT_DIR$/src/sample/Customer_Tab/ModifyCustomer/ModifyCustomer.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Customer_Tab/ModifyCustomer/ModifyCustomerController.java" />
@@ -223,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/sample/Customer_Tab/ViewCustomers/ViewCustomersController.java" />
         <option value="$PROJECT_DIR$/src/sample/Department_Tab/ViewDepartments/ViewDepartments.java" />
         <option value="$PROJECT_DIR$/src/sample/Customer_Tab/ViewCustomers/ViewCustomers.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/buttonsStyle.css" />
         <option value="$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomer.fxml" />
         <option value="$PROJECT_DIR$/src/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomer.fxml" />
@@ -263,6 +249,10 @@
         <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/View_Employee.fxml" />
         <option value="$PROJECT_DIR$/../software engineering/Database-Project-for-trade-corporation/src/sample/ui/main/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/ui/main/MainController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Login/LoginLoader.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Login/login.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Login/LoginController.java" />
       </list>
     </option>
   </component>
@@ -330,24 +320,6 @@
               <option name="myItemId" value="sample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation confilect2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporation confilect2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -375,7 +347,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Employee_Tab" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -401,11 +373,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Employee_Tab" />
+              <option name="myItemId" value="Login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation confilect2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation confilect2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AddEmployee" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -435,15 +421,15 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\employeeTab\Add_Employee\ِAddEmployee" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\software project4\Database-Project-for-trade-corporation confilect2\src\sample\ui\Login" />
       <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\Vendor_Tab" />
       <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\Employee_Tab\ViewEmployee" />
       <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\Employee_Tab\ModifyEmployee" />
       <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\Employee_Tab\DeleteEmployee" />
-      <recent name="D:\final project\src\sample" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\employeeTab\Add_Employee\ِAddEmployee" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -458,27 +444,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration default="false" name="ModifyCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sample.ui.Customer_Tab.ModifyCustomer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="sample.ui.Customer_Tab.ModifyCustomer.ModifyCustomer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="final project" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.LoginLoader">
     <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -547,6 +513,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="sample.ui.Vendor_Tab.DeleteVendor.DelVendor_loader" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="final project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LoginLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.ui.Login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sample.ui.Login.LoginLoader" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -929,19 +915,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ModifyCustomer" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AddEmployee_loader" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AddCustomer" />
-      <item index="5" class="java.lang.String" itemvalue="Application.DelVendor_loader" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AddEmployee_loader" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AddCustomer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DelVendor_loader" />
+      <item index="5" class="java.lang.String" itemvalue="Application.LoginLoader" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DelVendor_loader" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AddEmployee_loader" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AddCustomer" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ModifyCustomer" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LoginLoader" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DelVendor_loader" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AddEmployee_loader" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AddCustomer" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1003,7 +989,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51849000" />
+    <option name="totallyTimeSpent" value="53704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
@@ -1032,17 +1018,39 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32451254" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27384022" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1073,9 +1081,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee_loader.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/buttonsStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1181,7 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomer.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1301,7 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1309,7 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1317,7 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,7 +1329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="84" lean-forward="false" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1340,16 +1340,16 @@
         <state relative-caret-position="1972">
           <caret line="116" column="97" lean-forward="false" selection-start-line="116" selection-start-column="97" selection-end-line="116" selection-end-column="97" />
           <folding>
-            <marker date="1493585967081" expanded="true" signature="24372:24454" ph="..." />
-            <marker date="1493585967081" expanded="true" signature="24372:24515" ph="..." />
-            <marker date="1493585967081" expanded="true" signature="24372:24570" ph="..." />
-            <marker date="1493585967081" expanded="true" signature="24372:24620" ph="..." />
-            <marker date="1493585967081" expanded="true" signature="24372:24668" ph="..." />
-            <marker date="1493585967081" expanded="true" signature="24372:24708" ph="..." />
-            <marker date="1493585967081" expanded="true" signature="24372:24748" ph="..." />
-            <marker date="1493585967081" expanded="true" signature="24372:24786" ph="..." />
-            <marker date="1493585967081" expanded="true" signature="24372:24817" ph="..." />
-            <marker date="1493585967081" expanded="true" signature="24372:24840" ph="..." />
+            <marker date="1493590115665" expanded="true" signature="24372:24454" ph="..." />
+            <marker date="1493590115665" expanded="true" signature="24372:24515" ph="..." />
+            <marker date="1493590115665" expanded="true" signature="24372:24570" ph="..." />
+            <marker date="1493590115665" expanded="true" signature="24372:24620" ph="..." />
+            <marker date="1493590115665" expanded="true" signature="24372:24668" ph="..." />
+            <marker date="1493590115665" expanded="true" signature="24372:24708" ph="..." />
+            <marker date="1493590115665" expanded="true" signature="24372:24748" ph="..." />
+            <marker date="1493590115665" expanded="true" signature="24372:24786" ph="..." />
+            <marker date="1493590115665" expanded="true" signature="24372:24817" ph="..." />
+            <marker date="1493590115665" expanded="true" signature="24372:24840" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1358,7 +1358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,7 +1366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1379,10 +1377,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Login/login.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <marker date="1493591589913" expanded="true" signature="1651:1759" ph="..." />
+            <marker date="1493591589913" expanded="true" signature="1671:1738" ph="..." />
+            <marker date="1493591589913" expanded="true" signature="1870:1979" ph="..." />
+            <marker date="1493591589913" expanded="true" signature="1890:1958" ph="..." />
+            <marker date="1493591589913" expanded="true" signature="2105:2162" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/main/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="252" column="85" lean-forward="false" selection-start-line="252" selection-start-column="85" selection-end-line="252" selection-end-column="85" />
+        <state relative-caret-position="27">
+          <caret line="120" column="104" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="104" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4921#4922#0" expanded="true" />
@@ -1391,6 +1414,26 @@
             <element signature="e#5751#5752#0" expanded="true" />
             <element signature="e#5793#5794#0" expanded="true" />
             <element signature="e#5889#5890#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Login/LoginLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Login/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
