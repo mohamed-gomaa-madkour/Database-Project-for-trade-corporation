@@ -75,7 +75,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../../icons/settings.png" />
+                                                        <Image url="@icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -116,7 +116,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../../icons/settings.png" />
+                                                        <Image url="@icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -153,7 +153,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../../icons/settings.png" />
+                                                        <Image url="@icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -192,7 +192,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../../icons/settings.png" />
+                                                        <Image url="@icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -219,15 +219,15 @@
                                 </Pane>
                                 <VBox layoutY="5.0" prefHeight="329.0" prefWidth="154.0">
                                     <children>
-                                        <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Add Invoice" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Delete Invoice" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="View Invoices" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Modify Invoice" />
+                                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAddInvoice" prefHeight="150.0" prefWidth="154.0" text="Add Invoice" />
+                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadDeleteInvoice" prefHeight="150.0" prefWidth="154.0" text="Delete Invoice" />
+                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadViewInvoices" prefHeight="150.0" prefWidth="154.0" text="View Invoices" />
+                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadModifyInvoice" prefHeight="150.0" prefWidth="154.0" text="Modify Invoice" />
                                         <Button contentDisplay="TOP" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Settings">
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../../icons/settings.png" />
+                                                        <Image url="@icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -254,15 +254,15 @@
                                 </Pane>
                                 <VBox layoutY="5.0" prefHeight="329.0" prefWidth="154.0">
                                     <children>
-                                        <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Add Invoice" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Delete Invoice" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="View Invoices" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Modify invoice" />
+                                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAddInvoice1" prefHeight="150.0" prefWidth="154.0" text="Add Invoice" />
+                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadDeleteInvoice1" prefHeight="150.0" prefWidth="154.0" text="Delete Invoice" />
+                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadViewInvoices1" prefHeight="150.0" prefWidth="154.0" text="View Invoices" />
+                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadModifyInvoice1" prefHeight="150.0" prefWidth="154.0" text="Modify invoice" />
                                         <Button contentDisplay="TOP" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Settings">
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../../icons/settings.png" />
+                                                        <Image url="@icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -297,7 +297,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../../icons/settings.png" />
+                                                        <Image url="@icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
