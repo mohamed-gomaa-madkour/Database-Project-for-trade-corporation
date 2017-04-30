@@ -9,9 +9,9 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="503.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.PurchaseInvoice.AddInvoice.AddInvoiceController">
+<AnchorPane prefHeight="613.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.PurchaseInvoice.AddInvoice.AddInvoiceController">
    <children>
-      <VBox layoutX="24.0" layoutY="14.0" prefHeight="344.0" prefWidth="556.0">
+      <VBox layoutX="24.0" layoutY="14.0" prefHeight="468.0" prefWidth="556.0">
          <children>
             <TextField promptText="Serial">
                <VBox.margin>
@@ -28,14 +28,24 @@
                   <Insets top="20.0" />
                </VBox.margin>
             </TextArea>
-            <TextField promptText="Total Price">
+            <TextField prefHeight="15.0" prefWidth="556.0" promptText="Total Price">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="v_id" promptText="vendor id">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField promptText="employee id">
                <VBox.margin>
                   <Insets top="20.0" />
                </VBox.margin>
             </TextField>
          </children>
       </VBox>
-      <HBox layoutX="24.0" layoutY="391.0" prefHeight="77.0" prefWidth="556.0">
+      <HBox layoutX="24.0" layoutY="494.0" prefHeight="77.0" prefWidth="556.0">
          <children>
             <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="276.0" style="-fx-background-color: #2a5cd3;" text="ADD" textFill="WHITE" />
             <Button mnemonicParsing="false" prefHeight="127.0" prefWidth="281.0" style="-fx-background-color: #2a5cd3;" text="CANCEL" textFill="WHITE" />
