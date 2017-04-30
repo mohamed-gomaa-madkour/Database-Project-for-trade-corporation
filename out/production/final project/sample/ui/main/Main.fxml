@@ -15,7 +15,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.main.MainController">
     <children>
         <MenuBar layoutX="1.0" layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
             <menus>
@@ -67,7 +67,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../icons/settings.png" />
+                                                        <Image url="@../../icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -102,7 +102,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../icons/settings.png" />
+                                                        <Image url="@../../icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -113,31 +113,33 @@
                         </AnchorPane>
                     </content>
                 </Tab>
-                <Tab text="Department">
+                <Tab fx:id="D_tab" text="Department">
                     <content>
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                             <children>
                                 <Pane layoutX="162.0" layoutY="24.0" prefHeight="291.0" prefWidth="416.0" style="-fx-background-color: #e7e7e7;">
                                     <children>
-                                        <JFXTextField layoutX="176.0" layoutY="15.0" prefHeight="25.0" prefWidth="105.0" promptText="ID" />
+                                        <JFXTextField fx:id="DID" layoutX="176.0" layoutY="15.0" prefHeight="25.0" prefWidth="105.0" promptText="ID" />
                                         <Label layoutX="78.0" layoutY="17.0" text="Search by ID">
                                             <font>
                                                 <Font size="14.0" />
                                             </font>
                                         </Label>
+                              <Label layoutX="28.0" layoutY="83.0" prefHeight="25.0" prefWidth="120.0" text="Department name :" />
+                              <Label fx:id="Dname" layoutX="158.0" layoutY="83.0" prefHeight="25.0" prefWidth="237.0" style="-fx-border-color: black;" />
                                     </children>
                                 </Pane>
                                 <VBox layoutY="5.0" prefHeight="329.0" prefWidth="154.0">
                                     <children>
-                                        <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Add Department" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Delete Department" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="View Departments" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Modify Department" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Settings">
+                                        <Button fx:id="add_d" contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAddDepartment" prefHeight="150.0" prefWidth="154.0" text="Add Department" />
+                                        <Button fx:id="delete_d" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadDeleteDepartment" prefHeight="150.0" prefWidth="154.0" text="Delete Department" />
+                                        <Button fx:id="view_d" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadViewDepartment" prefHeight="150.0" prefWidth="154.0" text="View Departments" />
+                                        <Button fx:id="modify_d" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadModifyDepartment" prefHeight="150.0" prefWidth="154.0" text="Modify Department" />
+                                        <Button fx:id="settings_d" contentDisplay="TOP" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Settings">
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../icons/settings.png" />
+                                                        <Image url="@../../icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -148,31 +150,35 @@
                         </AnchorPane>
                     </content>
                 </Tab>
-                <Tab text="Costomer">
+                <Tab fx:id="C_tab" text="Costomer">
                     <content>
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                             <children>
                                 <Pane layoutX="162.0" layoutY="24.0" prefHeight="291.0" prefWidth="416.0" style="-fx-background-color: #e7e7e7;">
                                     <children>
-                                        <JFXTextField layoutX="176.0" layoutY="15.0" prefHeight="25.0" prefWidth="105.0" promptText="ID" />
+                                        <JFXTextField fx:id="CID" layoutX="176.0" layoutY="15.0" prefHeight="25.0" prefWidth="105.0" promptText="ID" />
                                         <Label layoutX="78.0" layoutY="17.0" text="Search by ID">
                                             <font>
                                                 <Font size="14.0" />
                                             </font>
                                         </Label>
+                              <Label layoutX="41.0" layoutY="79.0" text="Name :" />
+                              <Label layoutX="40.0" layoutY="129.0" text="Phone :" />
+                              <Label fx:id="Cname" layoutX="102.0" layoutY="79.0" prefHeight="19.0" prefWidth="245.0" style="-fx-border-color: black;" />
+                              <Label fx:id="Cphone" layoutX="102.0" layoutY="128.0" prefHeight="19.0" prefWidth="245.0" style="-fx-border-color: black;" />
                                     </children>
                                 </Pane>
                                 <VBox layoutY="5.0" prefHeight="329.0" prefWidth="154.0">
                                     <children>
-                                        <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Add Costomer" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Delete Costomer" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="View Costomers" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Modify Costomer" />
-                                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Settings">
+                                        <Button fx:id="add_c" contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAddCustomer" prefHeight="150.0" prefWidth="154.0" text="Add Costomer" />
+                                        <Button fx:id="delete_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadDeleteCustomer" prefHeight="150.0" prefWidth="154.0" text="Delete Costomer" />
+                                        <Button fx:id="view_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadViewCustomer" prefHeight="150.0" prefWidth="154.0" text="View Costomers" />
+                                        <Button fx:id="modify_c" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadModifyCustomer" prefHeight="150.0" prefWidth="154.0" text="Modify Costomer" />
+                                        <Button fx:id="settings_c" contentDisplay="TOP" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="154.0" text="Settings">
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../icons/settings.png" />
+                                                        <Image url="@../../icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -207,7 +213,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../icons/settings.png" />
+                                                        <Image url="@../../icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -242,7 +248,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../icons/settings.png" />
+                                                        <Image url="@../../icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>
@@ -277,7 +283,7 @@
                                             <graphic>
                                                 <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
-                                                        <Image url="@../icons/settings.png" />
+                                                        <Image url="@../../icons/settings.png" />
                                                     </image>
                                                 </ImageView>
                                             </graphic>

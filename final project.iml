@@ -10,22 +10,28 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/programs/jfoenix.jar!/" />
+          <root url="jar://$MODULE_DIR$/../SW project/derby.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES>
-          <root url="file://D:/programs/mysql-connector-java-5.1.41/mysql-connector-java-5.1.41/src" />
-        </SOURCES>
+        <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://D:/programs/mysql-connector-java-5.1.41/mysql-connector-java-5.1.41" />
+          <root url="jar://$MODULE_DIR$/../SW project/example/jfoenix.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://D:/programs/mysql-connector-java-5.1.41/mysql-connector-java-5.1.41" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/programs/jfoenix.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
   </component>
