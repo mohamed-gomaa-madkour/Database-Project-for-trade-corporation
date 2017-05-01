@@ -185,4 +185,157 @@ public class MainController {
     }
 
 
+    @FXML
+    private JFXTextField e_id;
+
+    @FXML
+    private Label E_name;
+
+    @FXML
+    private Label E_phone;
+
+    @FXML
+    private Label E_age;
+
+    @FXML
+    private Label E_job;
+
+    @FXML
+    private Button addE;
+
+    @FXML
+    private Button delE;
+
+    @FXML
+    private Button viewE;
+
+    @FXML
+    private Button modifyE;
+
+    @FXML
+    private JFXTextField vID;
+
+    @FXML
+    private Label v_add;
+
+    @FXML
+    private Label v_phone;
+
+    @FXML
+    private Label v_name;
+
+    @FXML
+    private Button Add_v;
+
+    @FXML
+    private Button del_v;
+
+    @FXML
+    private Button view_v;
+
+    @FXML
+    private Button modify_v;
+
+
+
+
+
+
+
+
+    @FXML
+    void loadAddVendor(ActionEvent event) {
+        loadWindow("/sample/ui/Vendor_Tab/AddVendor/add_Vendor.fxml", "Add New Vendor");
+
+    }
+
+
+
+
+
+
+    @FXML
+    void loadDeleteEmployee(ActionEvent event) {
+        loadWindow("/sample/ui/Employee_Tab/DeleteEmployee/Del_Employee.fxml", "Delete Employee");
+
+    }
+
+    @FXML
+    void loadDeleteVendor(ActionEvent event) {
+        loadWindow("/sample/ui/Vendor_Tab/DeleteVendor/Del_Vendor.fxml", "Delete Vendor");
+    }
+
+
+
+    @FXML
+    void loadModifyEmployee(ActionEvent event) {
+        loadWindow("/sample/ui/Employee_Tab/ModifyEmployee/Modify_Employee.fxml", "Modify Employee");
+    }
+
+    @FXML
+    void loadModifyVendor(ActionEvent event) {
+        loadWindow("/sample/ui/Vendor_Tab/ModifyVendor/Modify_Vendor.fxml", "Modify Vendor");
+    }
+
+
+
+
+    @FXML
+    void loadViewEmployee(ActionEvent event) {
+        loadWindow("/sample/ui/Employee_Tab/ViewEmployee/View_Employee.fxml", "All Employees");
+    }
+
+    @FXML
+    void loadViewVendor(ActionEvent event) {
+        loadWindow("/sample/ui/Vendor_Tab/ViewVendor/View_Vendor.fxml", "All Vendors");
+    }
+
+
+    @FXML
+    void loadAddEmployee(ActionEvent event) {
+        loadWindow("/sample/ui/Employee_Tab/AddEmployee/add_Employee.fxml", "Add Employee");
+    }
+
+    @FXML
+    void loadAddInvoice1() {
+        loadWindow("/sample/ui/SalesInvoice/AddInvoice/AddInvoice1.fxml","Add Invoice");
+    }
+
+    @FXML
+    void loadDeleteInvoice() {
+        loadWindow("/sample/ui/PurchaseInvoice/DeleteInvoice/DeleteInvoice1.fxml","Delete Invoice");
+    }
+
+    @FXML
+    void loadDeleteInvoice1() {
+        loadWindow("/sample/ui/SalesInvoice/DeleteInvoice/DeleteInvoice1.fxml","Delete Invoice");
+
+    }
+
+    @FXML
+    void loadModifyInvoice() {
+        loadWindow("/sample/ui/PurchaseInvoice/ModifyInvoice/ModifyInvoice1.fxml","Modify Invoice");
+
+    }
+
+    @FXML
+    void loadModifyInvoice1() {
+        loadWindow("/sample/ui/SalesInvoice/ModifyInvoice/ModifyInvoice1.fxml","Modify Invoice");
+    }
+
+    @FXML
+    void loadViewInvoices() {
+        loadWindow("/sample/ui/PurchaseInvoice/ViewInvoice/ViewInvoice.fxml","All Invoices");
+    }
+
+    @FXML
+    void loadViewInvoices1() {
+        loadWindow("/sample/ui/SalesInvoice/ViewInvoice/ViewInvoice.fxml","All Invoice");
+    }
+
+    @FXML
+    void loadAddInvoice() {
+        loadWindow("/sample/ui/PurchaseInvoice/AddInvoice/AddInvoice1.fxml","Add Invoice");
+
+    }
 }
