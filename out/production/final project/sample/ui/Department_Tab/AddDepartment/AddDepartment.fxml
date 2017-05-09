@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="224.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="224.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.Department_Tab.AddDepartment.AddDepartmentController">
    <children>
       <VBox layoutY="-1.0" prefHeight="224.0" prefWidth="404.0">
          <children>
@@ -18,7 +18,7 @@
             <JFXTextField fx:id="d_name" prefHeight="67.0" prefWidth="404.0" promptText="Dpartment name" />
             <HBox prefHeight="47.0" prefWidth="404.0">
                <children>
-                  <JFXButton fx:id="d_save" prefHeight="66.0" prefWidth="250.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Save" />
+                  <JFXButton fx:id="d_save" onAction="#addDepartment" prefHeight="66.0" prefWidth="250.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Save" />
                   <JFXButton fx:id="d_cancle" prefHeight="66.0" prefWidth="250.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Cancle" />
                </children>
             </HBox>

@@ -9,20 +9,33 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.Tab;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-
+import java.sql.ResultSet;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.Statement;
+import java.text.NumberFormat;
 
 public class MainController {
+    SearchHandler sh;
+    ResultSet rs = null;
 
     @FXML
     private Tab D_tab;
 
     @FXML
     private JFXTextField DID;
+
+    @FXML
+    private JFXTextField VID;
+
 
     @FXML
     private Label Dname;
@@ -216,6 +229,9 @@ public class MainController {
     private JFXTextField vID;
 
     @FXML
+    private JFXTextField PID;
+
+    @FXML
     private Label v_add;
 
     @FXML
@@ -337,5 +353,134 @@ public class MainController {
     void loadAddInvoice() {
         loadWindow("/sample/ui/PurchaseInvoice/AddInvoice/AddInvoice1.fxml","Add Invoice");
 
+    }
+
+    @FXML
+    void searchDepartment(KeyEvent event) throws SQLException {
+        if (event.getCode() == KeyCode.ENTER) {
+            try (
+                    Connection conn = sh.connDB();) {
+                PreparedStatement ps = conn.prepareStatement("SELECT * FROM `department` WHERE `D_ID` = ?");
+                ps.setInt(1, Integer.parseInt(DID.getText()));
+                rs = ps.executeQuery();
+                rs.next();
+                Dname.setText(rs.getString(2));
+
+            } catch (SQLException a) {
+                System.err.println("Error: " + a.getMessage());
+                System.err.println("State: " + a.getSQLState());
+                System.err.println("Code: " + a.getErrorCode());
+            } finally {
+                if (rs != null) {
+                    rs.close();
+                }
+
+            }
+        }
+    }
+
+    @FXML
+    void searchVendor(KeyEvent event) throws SQLException {
+        if (event.getCode() == KeyCode.ENTER) {
+            try (
+                    Connection conn = sh.connDB();) {
+                PreparedStatement ps = conn.prepareStatement("SELECT * FROM `vendor` WHERE `vendorID` = ?");
+                ps.setInt(1, Integer.parseInt(vID.getText()));
+                rs = ps.executeQuery();
+                rs.next();
+                v_name.setText(rs.getString(2));
+                v_phone.setText(Integer.toString(rs.getInt(3)));
+                v_add.setText(rs.getString(4));
+
+            } catch (SQLException a) {
+                System.err.println("Error: " + a.getMessage());
+                System.err.println("State: " + a.getSQLState());
+                System.err.println("Code: " + a.getErrorCode());
+            } finally {
+                if (rs != null) {
+                    rs.close();
+                }
+
+            }
+        }
+    }
+    @FXML
+    void searchEmployee(KeyEvent event) throws SQLException {
+        if (event.getCode() == KeyCode.ENTER) {
+            try (
+                    Connection conn = sh.connDB();) {
+                PreparedStatement ps = conn.prepareStatement("SELECT * FROM `employee` WHERE `id` = ?");
+                ps.setInt(1, Integer.parseInt(e_id.getText()));
+                rs = ps.executeQuery();
+                rs.next();
+                E_name.setText(rs.getString(3));
+                E_phone.setText(Integer.toString(rs.getInt(9)));
+                E_age.setText(Integer.toString(rs.getInt(7)));
+                E_job.setText(rs.getString(5));
+
+            } catch (SQLException a) {
+                System.err.println("Error: " + a.getMessage());
+                System.err.println("State: " + a.getSQLState());
+                System.err.println("Code: " + a.getErrorCode());
+            } finally {
+                if (rs != null) {
+                    rs.close();
+                }
+
+            }
+        }
+    }
+    @FXML
+    void searchCustomer(KeyEvent event) throws SQLException {
+        if (event.getCode() == KeyCode.ENTER) {
+            try (
+                    Connection conn = sh.connDB();) {
+                PreparedStatement ps = conn.prepareStatement("SELECT * FROM `customer` WHERE `customerID` =  ?");
+                ps.setInt(1, Integer.parseInt(CID.getText()));
+                rs = ps.executeQuery();
+                rs.next();
+                Cname.setText(rs.getString(2));
+                Cphone.setText(Integer.toString(rs.getInt(3)));
+
+
+            } catch (SQLException a) {
+                System.err.println("Error: " + a.getMessage());
+                System.err.println("State: " + a.getSQLState());
+                System.err.println("Code: " + a.getErrorCode());
+            } finally {
+                if (rs != null) {
+                    rs.close();
+                }
+
+            }
+        }
+    }
+    @FXML
+    void searchProduct(KeyEvent event) throws SQLException {
+        if (event.getCode() == KeyCode.ENTER) {
+            try (
+                    Connection conn = sh.connDB();) {
+                PreparedStatement ps = conn.prepareStatement("SELECT * FROM `product` WHERE `serial` = ?");
+                ps.setInt(1, Integer.parseInt(PID.getText()));
+                rs = ps.executeQuery();
+                rs.next();
+                type.setText(rs.getString(2));
+                model.setText(rs.getString(3));
+                p_price.setText(Integer.toString(rs.getInt(4)));
+                s_price.setText(Integer.toString(rs.getInt(5)));
+
+
+
+            } catch (SQLException a) {
+                System.err.println("Error: " + a.getMessage());
+                System.err.println("State: " + a.getSQLState());
+                System.err.println("Code: " + a.getErrorCode());
+            } finally {
+                if (rs != null) {
+                    rs.close();
+                }
+
+            }
+        }
     }
 }

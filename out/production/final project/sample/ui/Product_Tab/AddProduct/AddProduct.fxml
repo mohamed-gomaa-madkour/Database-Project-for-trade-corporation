@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.Product_Tab.AddProduct.AddProductController">
     <children>
         <VBox layoutY="13.0" prefHeight="299.0" prefWidth="404.0">
             <children>
@@ -15,14 +15,14 @@
                 <JFXTextField fx:id="model" layoutX="10.0" layoutY="45.0" prefHeight="35.0" prefWidth="404.0" promptText="Model" />
             <JFXTextField fx:id="p_price" layoutX="10.0" layoutY="80.0" prefHeight="35.0" prefWidth="404.0" promptText="Purchase price" />
             <JFXTextField fx:id="s_price" layoutX="10.0" layoutY="115.0" prefHeight="35.0" prefWidth="404.0" promptText="Sales price" />
-            <JFXTextField prefHeight="35.0" prefWidth="404.0" promptText="Department" />
-            <JFXTextField prefHeight="35.0" prefWidth="404.0" promptText="Purchase Serial" />
-            <JFXTextField prefHeight="35.0" prefWidth="404.0" promptText="Vendor" />
+            <JFXTextField fx:id="d_id" prefHeight="35.0" prefWidth="404.0" promptText="Department" />
+            <JFXTextField fx:id="purchase_serial" prefHeight="35.0" prefWidth="404.0" promptText="Purchase Serial" />
+            <JFXTextField fx:id="vendor" prefHeight="35.0" prefWidth="404.0" promptText="Vendor" />
             </children>
         </VBox>
         <HBox layoutY="312.0" prefHeight="47.0" prefWidth="404.0">
             <children>
-                <JFXButton fx:id="save" prefHeight="66.0" prefWidth="250.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Save" />
+                <JFXButton fx:id="save" onAction="#addProduct" prefHeight="66.0" prefWidth="250.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Save" />
                 <JFXButton fx:id="cancle" prefHeight="66.0" prefWidth="250.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Cancle" />
             </children>
         </HBox>
