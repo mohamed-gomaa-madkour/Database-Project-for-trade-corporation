@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="689.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="689.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.Product_Tab.ModifyProduct.ModifyProductController">
     <children>
         <Pane layoutX="12.0" layoutY="14.0" prefHeight="600.0" prefWidth="469.0">
             <children>
@@ -43,9 +43,9 @@
             <Label fx:id="type11" layoutX="167.0" layoutY="202.0" prefHeight="17.0" prefWidth="225.0" style="-fx-border-color: black;" />
             <Label layoutX="22.0" layoutY="245.0" text="Vendor :" />
             <Label fx:id="type111" layoutX="167.0" layoutY="234.0" prefHeight="17.0" prefWidth="225.0" style="-fx-border-color: black;" />
-            <JFXTextField fx:id="new_sprice3" layoutX="146.0" layoutY="536.0" prefHeight="25.0" prefWidth="225.0" />
-            <JFXTextField fx:id="new_sprice2" layoutX="146.0" layoutY="504.0" prefHeight="25.0" prefWidth="225.0" />
-            <JFXTextField fx:id="new_sprice1" layoutX="146.0" layoutY="471.0" prefHeight="25.0" prefWidth="225.0" />
+            <JFXTextField fx:id="newVendor" layoutX="146.0" layoutY="536.0" prefHeight="25.0" prefWidth="225.0" />
+            <JFXTextField fx:id="newPurSerial" layoutX="146.0" layoutY="504.0" prefHeight="25.0" prefWidth="225.0" />
+            <JFXTextField fx:id="new_dept" layoutX="146.0" layoutY="471.0" prefHeight="25.0" prefWidth="225.0" />
             <Label layoutX="11.0" layoutY="484.0" text="Enter new Department :" />
             <Label layoutX="15.0" layoutY="521.0" text="Enter new Pur. Serial :" />
             <Label layoutX="15.0" layoutY="553.0" text="Enter new Vendor :" />
@@ -53,7 +53,7 @@
         </Pane>
         <HBox layoutX="12.0" layoutY="619.0" prefHeight="56.0" prefWidth="469.0">
             <children>
-                <JFXButton fx:id="modify" prefHeight="54.0" prefWidth="239.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Modify" />
+                <JFXButton fx:id="modify" onAction="#modifyProduct" prefHeight="54.0" prefWidth="239.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Modify" />
                 <JFXButton fx:id="cancle" prefHeight="54.0" prefWidth="239.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Cancle" />
             </children>
         </HBox>

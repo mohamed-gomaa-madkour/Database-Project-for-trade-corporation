@@ -2,8 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/main/MainController.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/main/MainController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/addHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/DeleteCustomer/deleteHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/modifyHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/addHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/deleteHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Department_Tab/ModifyDepartment/modifyHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/addHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/deleteHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/modifyHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Product_Tab/AddProduct/addHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Product_Tab/DeleteProduct/deleteHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Product_Tab/ModifyProduct/modifyHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/addHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/deleteHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/modifyHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ui/main/SearchHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Customer_Tab/AddCustomer/AddCustomerController.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Customer_Tab/AddCustomer/AddCustomerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomerController.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomerController.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Department_Tab/AddDepartment/AddDepartmentController.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Department_Tab/AddDepartment/AddDepartmentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartmentController.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartmentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Department_Tab/ModifyDepartment/ModifyDepartmentController.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Department_Tab/ModifyDepartment/ModifyDepartmentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Employee_Tab/AddEmployee/AddEmployee_controller.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Employee_Tab/AddEmployee/AddEmployee_controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Employee_Tab/DeleteEmployee/DelEmployee_controller.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Employee_Tab/DeleteEmployee/DelEmployee_controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_controller.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Product_Tab/AddProduct/AddProductController.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Product_Tab/AddProduct/AddProductController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Product_Tab/DeleteProduct/DeleteProductController.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Product_Tab/DeleteProduct/DeleteProductController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Product_Tab/ModifyProduct/ModifyProductController.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Product_Tab/ModifyProduct/ModifyProductController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Vendor_Tab/AddVendor/AddVendor_controller.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Vendor_Tab/AddVendor/AddVendor_controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Vendor_Tab/DeleteVendor/DelVendor_controller.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Vendor_Tab/DeleteVendor/DelVendor_controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Vendor_Tab/ModifyVendor/ModifyVendor_controller.class" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Vendor_Tab/ModifyVendor/ModifyVendor_controller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final project.iml" afterPath="$PROJECT_DIR$/final project.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Customer_Tab/AddCustomer/AddCustomer.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Customer_Tab/AddCustomer/AddCustomer.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomer.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomer.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomer.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomer.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Department_Tab/AddDepartment/AddDepartment.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Department_Tab/AddDepartment/AddDepartment.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartment.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartment.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Department_Tab/ModifyDepartment/ModifyDepartment.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Department_Tab/ModifyDepartment/ModifyDepartment.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Employee_Tab/AddEmployee/add_Employee.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Employee_Tab/AddEmployee/add_Employee.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Employee_Tab/DeleteEmployee/Del_Employee.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Employee_Tab/DeleteEmployee/Del_Employee.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Employee_Tab/ModifyEmployee/Modify_Employee.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Employee_Tab/ModifyEmployee/Modify_Employee.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Product_Tab/AddProduct/AddProduct.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Product_Tab/AddProduct/AddProduct.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Product_Tab/DeleteProduct/DeleteProduct.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Product_Tab/DeleteProduct/DeleteProduct.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Product_Tab/ModifyProduct/ModifyProduct.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Product_Tab/ModifyProduct/ModifyProduct.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Vendor_Tab/AddVendor/add_Vendor.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Vendor_Tab/AddVendor/add_Vendor.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Vendor_Tab/DeleteVendor/Del_Vendor.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Vendor_Tab/DeleteVendor/Del_Vendor.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final project/sample/ui/Vendor_Tab/ModifyVendor/Modify_Vendor.fxml" afterPath="$PROJECT_DIR$/out/production/final project/sample/ui/Vendor_Tab/ModifyVendor/Modify_Vendor.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomer.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomer.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomerController.java" afterPath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomer.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomer.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomerController.java" afterPath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomer.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomer.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomerController.java" afterPath="$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartment.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartment.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartmentController.java" afterPath="$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartmentController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartment.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartment.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartmentController.java" afterPath="$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartmentController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Department_Tab/ModifyDepartment/ModifyDepartment.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Department_Tab/ModifyDepartment/ModifyDepartment.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Department_Tab/ModifyDepartment/ModifyDepartmentController.java" afterPath="$PROJECT_DIR$/src/sample/ui/Department_Tab/ModifyDepartment/ModifyDepartmentController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/AddEmployee_controller.java" afterPath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/AddEmployee_controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/add_Employee.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/add_Employee.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/DelEmployee_controller.java" afterPath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/DelEmployee_controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/Del_Employee.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/Del_Employee.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_controller.java" afterPath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/Modify_Employee.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/Modify_Employee.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Product_Tab/AddProduct/AddProduct.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Product_Tab/AddProduct/AddProduct.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Product_Tab/AddProduct/AddProductController.java" afterPath="$PROJECT_DIR$/src/sample/ui/Product_Tab/AddProduct/AddProductController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Product_Tab/DeleteProduct/DeleteProduct.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Product_Tab/DeleteProduct/DeleteProduct.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Product_Tab/DeleteProduct/DeleteProductController.java" afterPath="$PROJECT_DIR$/src/sample/ui/Product_Tab/DeleteProduct/DeleteProductController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Product_Tab/ModifyProduct/ModifyProduct.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Product_Tab/ModifyProduct/ModifyProduct.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Product_Tab/ModifyProduct/ModifyProductController.java" afterPath="$PROJECT_DIR$/src/sample/ui/Product_Tab/ModifyProduct/ModifyProductController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/PurchaseInvoice/AddInvoice/AddInvoiceController.java" afterPath="$PROJECT_DIR$/src/sample/ui/PurchaseInvoice/AddInvoice/AddInvoiceController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/SalesInvoice/AddInvoice/AddInvoice1.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/SalesInvoice/AddInvoice/AddInvoice1.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/SalesInvoice/AddInvoice/AddInvoiceController.java" afterPath="$PROJECT_DIR$/src/sample/ui/SalesInvoice/AddInvoice/AddInvoiceController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/AddVendor_controller.java" afterPath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/AddVendor_controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/add_Vendor.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/add_Vendor.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/DelVendor_controller.java" afterPath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/DelVendor_controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/Del_Vendor.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/Del_Vendor.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/ModifyVendor_controller.java" afterPath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/ModifyVendor_controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/Modify_Vendor.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/Modify_Vendor.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/main/Main.fxml" afterPath="$PROJECT_DIR$/src/sample/ui/main/Main.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ui/main/MainController.java" afterPath="$PROJECT_DIR$/src/sample/ui/main/MainController.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,6 +97,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -63,36 +145,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/ui/main/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2057">
-              <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+            <state relative-caret-position="35">
+              <caret line="457" column="9" selection-start-line="457" selection-start-column="9" selection-end-line="457" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1493676451992" expanded="true" signature="3441:3453" ph="{...}" />
-                <marker date="1493676451992" expanded="true" signature="3502:3900" ph="{...}" />
-                <marker date="1493676451992" expanded="true" signature="4603:4700" ph="{...}" />
-                <marker date="1493676451992" expanded="true" signature="4764:4871" ph="{...}" />
-                <marker date="1493676451992" expanded="true" signature="4928:5026" ph="{...}" />
-                <marker date="1493676451992" expanded="true" signature="5087:5196" ph="{...}" />
-                <marker date="1493676451992" expanded="true" signature="5253:5354" ph="{...}" />
-                <marker date="1493676451992" expanded="true" signature="5414:5517" ph="{...}" />
-                <marker date="1493676451992" expanded="true" signature="5572:5667" ph="{...}" />
-                <marker date="1493676451992" expanded="true" signature="5724:5824" ph="{...}" />
-                <marker date="1493676451992" expanded="false" signature="5862:5873" ph=" { " />
-                <marker date="1493676451992" expanded="false" signature="5953:5959" ph=" }" />
-                <marker date="1493676451992" expanded="true" signature="6000:6108" ph="{...}" />
-                <marker date="1493676451992" expanded="true" signature="6150:6256" ph="{...}" />
-                <marker date="1493676451992" expanded="true" signature="6297:6406" ph="{...}" />
-                <marker date="1493676451992" expanded="true" signature="6448:6553" ph="{...}" />
-                <marker date="1493676451992" expanded="false" signature="6592:6603" ph=" { " />
-                <marker date="1493676451992" expanded="false" signature="6688:6694" ph=" }" />
-                <marker date="1493676451992" expanded="false" signature="6734:6745" ph=" { " />
-                <marker date="1493676451992" expanded="false" signature="6826:6832" ph=" }" />
-                <marker date="1493676451992" expanded="true" signature="6870:6970" ph="{...}" />
+                <marker date="1494311278242" expanded="true" signature="7606:7649" ph="SELECT * FRO... department" />
+                <marker date="1494311278242" expanded="true" signature="8457:8500" ph="SELECT * FRO... vendor" />
+                <marker date="1494311278242" expanded="true" signature="9423:9462" ph="SELECT * FRO... employee" />
+                <marker date="1494311278242" expanded="true" signature="10449:10497" ph="SELECT * FRO... customer" />
+                <marker date="1494311278242" expanded="true" signature="10495:10497" ph="SELECT * FRO... product" />
+                <marker date="1494311278242" expanded="true" signature="11370:11412" ph="SELECT * FRO... product" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddProduct.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/Product_Tab/AddProduct/AddProduct.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
@@ -100,50 +180,87 @@
         <entry file="file://$PROJECT_DIR$/src/sample/ui/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ui/Login/LoginController.java">
+      <file leaf-file-name="addHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/Product_Tab/AddProduct/addHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="227">
+              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1494296514649" expanded="true" signature="1331:1482" ph="INSERT INTO `product`... " />
+                <marker date="1494296514649" expanded="true" signature="1353:1472" ph="INSERT INTO `customer`... " />
+                <marker date="1494296514649" expanded="true" signature="1353:1482" ph="INSERT INTO `product`... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginLoader.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/ui/Login/LoginLoader.java">
+      <file leaf-file-name="SearchHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/main/SearchHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddInvoiceController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/SalesInvoice/AddInvoice/AddInvoiceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModifyCustomer.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomer.fxml">
+      <file leaf-file-name="DeleteInvoiceController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/SalesInvoice/DeleteInvoice/DeleteInvoiceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddInvoice1.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/SalesInvoice/AddInvoice/AddInvoice1.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddProductController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/Product_Tab/AddProduct/AddProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+            <state relative-caret-position="377">
+              <caret line="44" column="58" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buttonsStyle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/buttonsStyle.css">
+      <file leaf-file-name="AddInvoiceMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ui/SalesInvoice/AddInvoice/AddInvoiceMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -168,11 +285,17 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="MohamedElshazly95" />
+        <option value="Mohamed Elshazly" />
+      </list>
+    </option>
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Employee" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -184,57 +307,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/Customer_Tab/DeleteCustomer/DeleteCustomer.java" />
-        <option value="$PROJECT_DIR$/src/sample/Customer_Tab/ModifyCustomer/ModifyCustomer.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Customer_Tab/ModifyCustomer/ModifyCustomerController.java" />
-        <option value="$PROJECT_DIR$/src/sample/Customer_Tab/ModifyCustomer/ModifyCustomer.java" />
-        <option value="$PROJECT_DIR$/src/sample/Customer_Tab/ViewCustomers/ViewCustomers.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Customer_Tab/ViewCustomers/ViewCustomersController.java" />
-        <option value="$PROJECT_DIR$/src/sample/Department_Tab/ViewDepartments/ViewDepartments.java" />
-        <option value="$PROJECT_DIR$/src/sample/Customer_Tab/ViewCustomers/ViewCustomers.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/buttonsStyle.css" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomer.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomer.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomer.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartment.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartment.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Department_Tab/ModifyDepartment/ModifyDepartment.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/add_Employee.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/add_Employee.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/add_Employee.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/AddEmployee_loader.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/AddEmployee_controller.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/AddEmployee_controller.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/AddEmployee_loader.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/AddEmployee_controller.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/add_Employee.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/main/Main.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/DelEmployee_controller.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/Del_Employee.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/DelEmployee_loader.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/Modify_Employee.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_loader.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/ViewEmployee_loader.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ViewVendor/View_Vendor.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ViewVendor/ViewVendor_loader.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/AddVendor_loader.java" />
         <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/ModifyVendor_loader.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/DelVendor_controller.java" />
         <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/DelVendor_loader.java" />
         <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/add_Vendor.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/AddVendor_controller.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_controller.java" />
         <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/ViewEmployee_controller.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/ModifyVendor_controller.java" />
         <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ViewVendor/ViewVendor_controller.java" />
         <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/View_Employee.fxml" />
         <option value="$PROJECT_DIR$/../software engineering/Database-Project-for-trade-corporation/src/sample/ui/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/sample/ui/main/MainController.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/ui/Login/LoginLoader.java" />
         <option value="$PROJECT_DIR$/src/sample/ui/Login/login.fxml" />
         <option value="$PROJECT_DIR$/src/sample/ui/Login/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomerController.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/addHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomerController.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Customer_Tab/DeleteCustomer/deleteHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/modifyHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomerController.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/addHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartmentController.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/deleteHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartmentController.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Department_Tab/ModifyDepartment/modifyHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Department_Tab/ModifyDepartment/ModifyDepartmentController.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/addHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/AddVendor_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/deleteHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/DelVendor_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/modifyHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/ModifyVendor_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Product_Tab/AddProduct/AddProductController.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Product_Tab/AddProduct/addHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Product_Tab/DeleteProduct/deleteHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Product_Tab/DeleteProduct/DeleteProductController.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Product_Tab/ModifyProduct/modifyHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Product_Tab/ModifyProduct/ModifyProductController.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/addHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/AddEmployee_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/deleteHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/DelEmployee_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/modifyHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/PurchaseInvoice/DeleteInvoice/deleteHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/SalesInvoice/DeleteInvoice/deleteHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/SalesInvoice/ModifyInvoice/modifyHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/PurchaseInvoice/ModifyInvoice/modifyHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/PurchaseInvoice/AddInvoice/addHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/PurchaseInvoice/AddInvoice/AddInvoiceController.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/SalesInvoice/AddInvoice/addHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/SalesInvoice/AddInvoice/AddInvoiceController.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/main/SearchHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/ui/main/MainController.java" />
       </list>
     </option>
   </component>
@@ -248,11 +371,18 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -273,27 +403,31 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporationconflict4" />
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporationconflict4" />
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporationconflict4" />
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporationconflict4" />
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -311,11 +445,209 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporationconflict4" />
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database-Project-for-trade-corporationconflict4" />
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SalesInvoice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SalesInvoice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModifyInvoice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SalesInvoice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeleteInvoice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SalesInvoice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AddInvoice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AddProduct" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database-Project-for-trade-corporation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -329,6 +661,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,7 +677,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/JDBC/mysql-connector-java-5.1.41-bin.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -353,15 +687,22 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\employeeTab\Add_Employee\ِAddEmployee" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sample.ui.PurchaseInvoice.ModifyInvoice" />
+      <recent name="sample.ui.SalesInvoice.ModifyInvoice" />
+      <recent name="sample.ui.SalesInvoice.DeleteInvoice" />
+      <recent name="sample.ui.PurchaseInvoice.DeleteInvoice" />
+      <recent name="sample.ui.SalesInvoice.AddInvoice" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\software project4\Database-Project-for-trade-corporation confilect2\src\sample\ui\Login" />
       <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\Vendor_Tab" />
       <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\Employee_Tab\ViewEmployee" />
       <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\Employee_Tab\ModifyEmployee" />
       <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\Employee_Tab\DeleteEmployee" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\3 cse\2nd semster\Database-Project-for-trade-corporation-Dept_Cust\src\sample\ui\employeeTab\Add_Employee\ِAddEmployee" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -484,7 +825,7 @@
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -494,20 +835,11 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method />
@@ -526,17 +858,8 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -561,6 +884,65 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
@@ -655,7 +1037,6 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
@@ -681,6 +1062,27 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
@@ -699,19 +1101,6 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -785,6 +1174,34 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
     <configuration default="true" type="XSLT" factoryName="XSLT">
       <option name="myOutputFile" />
       <option name="myOpenOutputFile" value="false" />
@@ -811,7 +1228,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
+      <command value="run-script" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -862,7 +1279,7 @@
         <item index="4" class="java.lang.String" itemvalue="Application.AddCustomer" />
       </list>
     </recent_temporary>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -872,11 +1289,20 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method />
@@ -888,6 +1314,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -909,6 +1338,9 @@
       <workItem from="1493164186846" duration="317000" />
       <workItem from="1493195633691" duration="8546000" />
       <workItem from="1493585272481" duration="1913000" />
+      <workItem from="1493978737580" duration="1254000" />
+      <workItem from="1494015954952" duration="43000" />
+      <workItem from="1494183289073" duration="25186000" />
     </task>
     <task id="LOCAL-00001" summary="resolve conflict">
       <created>1493585904632</created>
@@ -921,66 +1353,46 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53945000" />
+    <option name="totallyTimeSpent" value="80428000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32649842" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29387188" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3259053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30441642" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26288658" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26061493" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32451254" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27384022" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1004,12 +1416,21 @@
       </map>
     </option>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="resolve conflict" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolve conflict" />
+    <MESSAGE value="Database connectivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database connectivity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1020,7 +1441,7 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1029,348 +1450,477 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/buttonsStyle.css">
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/modifyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <folding>
+            <marker date="1494287980800" expanded="true" signature="1177:1271" ph="UPDATE `cust... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/addHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1494287656139" expanded="true" signature="1148:1233" ph="INSERT INTO `customer`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomer.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/ViewCustomers/ViewCustomers.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee_controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartment.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/ModifyDepartment/ModifyDepartment.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomer.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomer.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/addHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        <state relative-caret-position="417">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <marker date="1494288749733" expanded="true" signature="1063:1119" ph="INSERT INTO `customer`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/deleteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <marker date="1494289015001" expanded="true" signature="1031:1072" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="35" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/DeleteCustomer/DeleteCustomer.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartment.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="28">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/ViewCustomers/ViewCustomers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomer.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/ModifyCustomer/ModifyCustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartmentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ِAddEmployee/add_Employee.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ِAddEmployee/addEmployee.css" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartment.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/AddDepartment/AddDepartment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomer.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="335">
+          <caret line="30" column="5" selection-start-line="24" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="236">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="35" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Customer_Tab/AddCustomer/AddCustomer.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/addHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="435">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <marker date="1494290308223" expanded="true" signature="1185:1282" ph="INSERT INTO `customer`... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/addVendor.css" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/AddEmployee_loader.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/deleteHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="335">
+          <caret line="29" column="73" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="73" />
+          <folding>
+            <marker date="1494290802219" expanded="true" signature="1035:1076" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_loader.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/DelVendor_controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="221">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/AddVendor_loader.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/Modify_Vendor.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/ModifyVendor_loader.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ViewVendor/ViewVendor_loader.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ViewVendor/View_Vendor.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/DelVendor_controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/Del_Vendor.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/DeleteVendor/DelVendor_loader.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/DelEmployee_loader.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/ModifyDepartment/modifyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="254">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <marker date="1494289392651" expanded="true" signature="1089:1149" ph="UPDATE `cust... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/DelEmployee_controller.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/ModifyDepartment/ModifyDepartmentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="311">
+          <caret line="39" column="5" selection-start-line="32" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/add_Vendor.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/add_Employee.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="79" column="15" lean-forward="false" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/Modify_Employee.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/Del_Employee.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/modifyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="16" column="111" selection-start-line="16" selection-start-column="111" selection-end-line="16" selection-end-column="111" />
+          <folding>
+            <marker date="1494291217925" expanded="true" signature="1214:1317" ph="UPDATE `cust... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/AddVendor/AddVendor_controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="419">
+          <caret line="38" column="5" selection-start-line="30" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Product_Tab/DeleteProduct/deleteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <marker date="1494296811676" expanded="true" signature="1031:1071" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Department_Tab/DeleteDepartment/DeleteDepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Product_Tab/ModifyProduct/modifyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <marker date="1494297417561" expanded="true" signature="1366:1519" ph="UPDATE `cust... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ModifyVendor/ModifyVendor_controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="281">
+          <caret line="44" column="5" selection-start-line="36" selection-start-column="3" selection-end-line="44" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Vendor_Tab/ViewVendor/ViewVendor_controller.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Product_Tab/ModifyProduct/ModifyProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="67" column="67" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/ViewEmployee_loader.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/AddEmployee_loader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/ViewEmployee_controller.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Product_Tab/DeleteProduct/DeleteProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="28" />
+        <state relative-caret-position="318">
+          <caret line="39" column="5" selection-start-line="34" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ViewEmployee/View_Employee.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/deleteHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="84" lean-forward="false" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
+        <state relative-caret-position="332">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding>
+            <marker date="1494300131485" expanded="true" signature="1021:1058" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/main/Main.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/DeleteEmployee/DelEmployee_controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="116" column="97" lean-forward="false" selection-start-line="116" selection-start-column="97" selection-end-line="116" selection-end-column="97" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/addHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="38" column="36" selection-start-line="28" selection-start-column="7" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <marker date="1494298650122" expanded="true" signature="1261:1418" ph="INSERT INTO `customer`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/modifyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="17" column="126" selection-start-line="17" selection-start-column="126" selection-end-line="17" selection-end-column="126" />
+          <folding>
+            <marker date="1494300743701" expanded="true" signature="1295:1446" ph="UPDATE `cust... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/ModifyEmployee/ModifyEmployee_controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="274">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../software engineering/Database-Project-for-trade-corporation/src/sample/ui/main/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/PurchaseInvoice/AddInvoice/AddInvoice1.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/PurchaseInvoice/DeleteInvoice/deleteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/SalesInvoice/DeleteInvoice/deleteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/SalesInvoice/ModifyInvoice/modifyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/SalesInvoice/ModifyInvoice/modifyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/PurchaseInvoice/ModifyInvoice/modifyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/PurchaseInvoice/AddInvoice/AddInvoiceMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/PurchaseInvoice/AddInvoice/AddInvoiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/PurchaseInvoice/AddInvoice/addHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="38" column="5" selection-start-line="6" selection-start-column="3" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/SalesInvoice/AddInvoice/addHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/Employee_Tab/AddEmployee/AddEmployee_controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="385">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/SalesInvoice/AddInvoice/AddInvoice1.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/SalesInvoice/AddInvoice/AddInvoiceMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/SalesInvoice/DeleteInvoice/DeleteInvoiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/SalesInvoice/AddInvoice/AddInvoiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/main/SearchHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Login/login.fxml">
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Product_Tab/AddProduct/addHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1494296514649" expanded="true" signature="1331:1482" ph="INSERT INTO `product`... " />
+            <marker date="1494296514649" expanded="true" signature="1353:1472" ph="INSERT INTO `customer`... " />
+            <marker date="1494296514649" expanded="true" signature="1353:1482" ph="INSERT INTO `product`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Product_Tab/AddProduct/AddProduct.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ui/Product_Tab/AddProduct/AddProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="377">
+          <caret line="44" column="58" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ui/main/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+        <state relative-caret-position="35">
+          <caret line="457" column="9" selection-start-line="457" selection-start-column="9" selection-end-line="457" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1493676451992" expanded="true" signature="3441:3453" ph="{...}" />
-            <marker date="1493676451992" expanded="true" signature="3502:3900" ph="{...}" />
-            <marker date="1493676451992" expanded="true" signature="4603:4700" ph="{...}" />
-            <marker date="1493676451992" expanded="true" signature="4764:4871" ph="{...}" />
-            <marker date="1493676451992" expanded="true" signature="4928:5026" ph="{...}" />
-            <marker date="1493676451992" expanded="true" signature="5087:5196" ph="{...}" />
-            <marker date="1493676451992" expanded="true" signature="5253:5354" ph="{...}" />
-            <marker date="1493676451992" expanded="true" signature="5414:5517" ph="{...}" />
-            <marker date="1493676451992" expanded="true" signature="5572:5667" ph="{...}" />
-            <marker date="1493676451992" expanded="true" signature="5724:5824" ph="{...}" />
-            <marker date="1493676451992" expanded="false" signature="5862:5873" ph=" { " />
-            <marker date="1493676451992" expanded="false" signature="5953:5959" ph=" }" />
-            <marker date="1493676451992" expanded="true" signature="6000:6108" ph="{...}" />
-            <marker date="1493676451992" expanded="true" signature="6150:6256" ph="{...}" />
-            <marker date="1493676451992" expanded="true" signature="6297:6406" ph="{...}" />
-            <marker date="1493676451992" expanded="true" signature="6448:6553" ph="{...}" />
-            <marker date="1493676451992" expanded="false" signature="6592:6603" ph=" { " />
-            <marker date="1493676451992" expanded="false" signature="6688:6694" ph=" }" />
-            <marker date="1493676451992" expanded="false" signature="6734:6745" ph=" { " />
-            <marker date="1493676451992" expanded="false" signature="6826:6832" ph=" }" />
-            <marker date="1493676451992" expanded="true" signature="6870:6970" ph="{...}" />
+            <marker date="1494311278242" expanded="true" signature="7606:7649" ph="SELECT * FRO... department" />
+            <marker date="1494311278242" expanded="true" signature="8457:8500" ph="SELECT * FRO... vendor" />
+            <marker date="1494311278242" expanded="true" signature="9423:9462" ph="SELECT * FRO... employee" />
+            <marker date="1494311278242" expanded="true" signature="10449:10497" ph="SELECT * FRO... customer" />
+            <marker date="1494311278242" expanded="true" signature="10495:10497" ph="SELECT * FRO... product" />
+            <marker date="1494311278242" expanded="true" signature="11370:11412" ph="SELECT * FRO... product" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Login/LoginLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ui/Login/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>

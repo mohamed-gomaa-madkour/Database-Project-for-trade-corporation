@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="355.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="355.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.Vendor_Tab.AddVendor.AddVendor_controller">
    <children>
       <VBox layoutX="52.0" layoutY="42.0" prefHeight="210.0" prefWidth="506.0">
          <children>
@@ -30,7 +30,7 @@
       </VBox>
       <HBox layoutX="67.0" layoutY="259.0" prefHeight="65.0" prefWidth="488.0">
          <children>
-            <JFXButton fx:id="saveButton" prefHeight="42.0" prefWidth="243.0" stylesheets="@../../Employee_Tab/AddEmployee/addEmployee.css" text="Save">
+            <JFXButton fx:id="saveButton" onAction="#addVendor" prefHeight="42.0" prefWidth="243.0" stylesheets="@../../Employee_Tab/AddEmployee/addEmployee.css" text="Save">
                <HBox.margin>
                   <Insets />
                </HBox.margin>

@@ -13,22 +13,22 @@
    <children>
       <VBox layoutX="24.0" layoutY="14.0" prefHeight="498.0" prefWidth="556.0">
          <children>
-            <TextField promptText="Serial">
+            <TextField fx:id="serial" promptText="Serial">
                <VBox.margin>
                   <Insets top="20.0" />
                </VBox.margin>
             </TextField>
-            <DatePicker prefHeight="25.0" prefWidth="568.0" promptText="Date">
+            <DatePicker fx:id="date" prefHeight="25.0" prefWidth="568.0" promptText="Date">
                <VBox.margin>
                   <Insets top="20.0" />
                </VBox.margin>
             </DatePicker>
-            <TextArea prefHeight="200.0" prefWidth="200.0" promptText="Items">
+            <TextArea fx:id="items" prefHeight="200.0" prefWidth="200.0" promptText="Items">
                <VBox.margin>
                   <Insets top="20.0" />
                </VBox.margin>
             </TextArea>
-            <TextField promptText="Total Price">
+            <TextField fx:id="total_price" promptText="Total Price">
                <VBox.margin>
                   <Insets top="20.0" />
                </VBox.margin>
@@ -38,7 +38,7 @@
                   <Insets top="20.0" />
                </VBox.margin>
             </TextField>
-            <TextField promptText="employee id">
+            <TextField fx:id="employee_id" promptText="employee id">
                <VBox.margin>
                   <Insets top="20.0" />
                </VBox.margin>
@@ -52,7 +52,7 @@
       </VBox>
       <HBox layoutX="22.0" layoutY="547.0" prefHeight="77.0" prefWidth="556.0">
          <children>
-            <Button mnemonicParsing="false" prefHeight="77.0" prefWidth="276.0" style="-fx-background-color: #2a5cd3;" text="ADD" textFill="WHITE" />
+            <Button mnemonicParsing="false" onAction="#addSalesInvoice" prefHeight="77.0" prefWidth="276.0" style="-fx-background-color: #2a5cd3;" text="ADD" textFill="WHITE" />
             <Button mnemonicParsing="false" prefHeight="127.0" prefWidth="281.0" style="-fx-background-color: #2a5cd3;" text="CANCEL" textFill="WHITE" />
          </children>
       </HBox>
