@@ -19,6 +19,45 @@ import java.util.logging.Logger;
 public class MainController {
 
     @FXML
+    private Label purSerialNo;
+
+    @FXML
+    private Label purItems;
+
+    @FXML
+    private Label purDate;
+
+    @FXML
+    private Label purTotPrice;
+
+    @FXML
+    private Label purVID;
+
+    @FXML
+    private Label purEid;
+
+    @FXML
+    private Label salSerialNo;
+
+    @FXML
+    private Label salItems;
+
+    @FXML
+    private Label salDate;
+
+    @FXML
+    private Label salTotPrice;
+
+    @FXML
+    private Label custID;
+
+    @FXML
+    private Label salEid;
+
+    @FXML
+    private Label salProductSerial;
+
+    @FXML
     private Tab D_tab;
 
     @FXML
@@ -298,29 +337,29 @@ public class MainController {
 
     @FXML
     void loadAddInvoice1() {
-        loadWindow("/sample/ui/SalesInvoice/AddInvoice/AddInvoice1.fxml","Add Invoice");
+        loadWindow("/sample/ui/SalesInvoice/AddInvoice/AddInvoice.fxml","Add Invoice");
     }
 
     @FXML
     void loadDeleteInvoice() {
-        loadWindow("/sample/ui/PurchaseInvoice/DeleteInvoice/DeleteInvoice1.fxml","Delete Invoice");
+        loadWindow("/sample/ui/PurchaseInvoice/DeleteInvoice/DeleteInvoice.fxml","Delete Invoice");
     }
 
     @FXML
     void loadDeleteInvoice1() {
-        loadWindow("/sample/ui/SalesInvoice/DeleteInvoice/DeleteInvoice1.fxml","Delete Invoice");
+        loadWindow("/sample/ui/SalesInvoice/DeleteInvoice/DeleteInvoice.fxml","Delete Invoice");
 
     }
 
     @FXML
     void loadModifyInvoice() {
-        loadWindow("/sample/ui/PurchaseInvoice/ModifyInvoice/ModifyInvoice1.fxml","Modify Invoice");
+        loadWindow("/sample/ui/PurchaseInvoice/ModifyInvoice/ModifyInvoice.fxml","Modify Invoice");
 
     }
 
     @FXML
     void loadModifyInvoice1() {
-        loadWindow("/sample/ui/SalesInvoice/ModifyInvoice/ModifyInvoice1.fxml","Modify Invoice");
+        loadWindow("/sample/ui/SalesInvoice/ModifyInvoice/ModifyInvoice.fxml","Modify Invoice");
     }
 
     @FXML
@@ -335,7 +374,7 @@ public class MainController {
 
     @FXML
     void loadAddInvoice() {
-        loadWindow("/sample/ui/PurchaseInvoice/AddInvoice/AddInvoice1.fxml","Add Invoice");
+        loadWindow("/sample/ui/PurchaseInvoice/AddInvoice/AddInvoice.fxml","Add Invoice");
 
     }
 }

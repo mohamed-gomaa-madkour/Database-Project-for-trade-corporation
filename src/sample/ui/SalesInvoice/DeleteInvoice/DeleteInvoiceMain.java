@@ -10,7 +10,7 @@ public class DeleteInvoiceMain extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("DeleteInvoice1.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("DeleteInvoice.fxml"));
 
         Scene scene = new Scene(root);
         stage.setTitle("Delete Invoice");
