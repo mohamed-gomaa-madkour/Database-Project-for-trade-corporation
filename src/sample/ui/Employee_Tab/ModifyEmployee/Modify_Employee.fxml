@@ -91,6 +91,6 @@
          </children>
       </Pane>
       <JFXButton fx:id="modifyE" layoutX="157.0" layoutY="469.0" onAction="#modifyEmployee" prefHeight="42.0" prefWidth="158.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Modify" />
-      <JFXButton fx:id="cancleE" layoutX="330.0" layoutY="469.0" prefHeight="42.0" prefWidth="158.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Cancle" />
+      <JFXButton fx:id="cancleE" layoutX="330.0" layoutY="469.0" prefHeight="42.0" prefWidth="158.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Cancel" />
    </children>
 </AnchorPane>

@@ -13,7 +13,7 @@
         <HBox layoutX="-2.0" layoutY="183.0" prefHeight="55.0" prefWidth="404.0">
             <children>
                 <JFXButton fx:id="c_delete" onAction="#deleteCustomer" prefHeight="66.0" prefWidth="250.0" stylesheets="@../AddCustomer/buttonsStyle.css" text="Delete" />
-                <JFXButton fx:id="ccancle" prefHeight="66.0" prefWidth="250.0" stylesheets="@../AddCustomer/buttonsStyle.css" text="Cancle" />
+                <JFXButton fx:id="ccancle" prefHeight="66.0" prefWidth="250.0" stylesheets="@../AddCustomer/buttonsStyle.css" text="Cancel" />
             </children>
         </HBox>
         <Pane layoutX="3.0" layoutY="5.0" prefHeight="178.0" prefWidth="394.0">

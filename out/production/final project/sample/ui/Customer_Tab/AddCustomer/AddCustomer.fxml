@@ -18,7 +18,7 @@
         <HBox layoutY="192.0" prefHeight="47.0" prefWidth="404.0">
             <children>
                 <JFXButton fx:id="c_save" onAction="#addCustomer" prefHeight="66.0" prefWidth="250.0" stylesheets="@buttonsStyle.css" text="Save" />
-                <JFXButton fx:id="cancle" prefHeight="66.0" prefWidth="250.0" stylesheets="@buttonsStyle.css" text="Cancle" />
+                <JFXButton fx:id="cancle" prefHeight="66.0" prefWidth="250.0" stylesheets="@buttonsStyle.css" text="Cancel" />
             </children>
         </HBox>
     </children>

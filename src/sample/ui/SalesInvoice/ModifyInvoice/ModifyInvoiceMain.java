@@ -11,7 +11,7 @@ public class ModifyInvoiceMain extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("ModifyInvoice1.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("ModifyInvoice.fxml"));
 
         Scene scene = new Scene(root);
         stage.setTitle("Modify Invoice");
