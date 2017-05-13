@@ -23,7 +23,7 @@
         <HBox layoutY="312.0" prefHeight="47.0" prefWidth="404.0">
             <children>
                 <JFXButton fx:id="save" onAction="#addProduct" prefHeight="66.0" prefWidth="250.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Save" />
-                <JFXButton fx:id="cancle" prefHeight="66.0" prefWidth="250.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Cancle" />
+                <JFXButton fx:id="cancle" prefHeight="66.0" prefWidth="250.0" stylesheets="@../../Customer_Tab/AddCustomer/buttonsStyle.css" text="Cancel" />
             </children>
         </HBox>
     </children>

@@ -5,9 +5,9 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="832.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="832.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.Employee_Tab.ViewEmployee.ViewEmployee_controller">
    <children>
-      <TableView layoutX="5.0" layoutY="2.0" prefHeight="538.0" prefWidth="832.0" style="-fx-border-color: black;">
+      <TableView fx:id="employeeTable" layoutX="5.0" layoutY="2.0" prefHeight="538.0" prefWidth="832.0" style="-fx-border-color: black;">
          <columns>
             <TableColumn fx:id="id" prefWidth="84.0" resizable="false" style="-fx-border-color: black;" text="ID" />
             <TableColumn fx:id="first_name" minWidth="0.0" prefWidth="65.0" style="-fx-border-color: black;" text="1st name" />
@@ -25,6 +25,6 @@
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
          </columnResizePolicy>
       </TableView>
-      <JFXButton fx:id="cancle" buttonType="RAISED" layoutX="310.0" layoutY="547.0"  prefHeight="39.0" prefWidth="137.0" ripplerFill="#55c360" style=": ;" stylesheets="@../AddEmployee/addEmployee.css" text="Cancle" />
+      <JFXButton fx:id="cancle" buttonType="RAISED" layoutX="348.0" layoutY="551.0" prefHeight="39.0" prefWidth="137.0" ripplerFill="#55c360" style=": ;" stylesheets="@../AddEmployee/addEmployee.css" text="Cancel" />
    </children>
 </AnchorPane>
